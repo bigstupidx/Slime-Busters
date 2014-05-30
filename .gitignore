@@ -41,3 +41,6 @@ $RECYCLE.BIN/
 *.unityproj
 *.sln
 *.userprefs
+
+*.ai
+*.swf
