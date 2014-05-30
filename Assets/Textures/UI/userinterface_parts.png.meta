@@ -24,13 +24,13 @@ TextureImporter:
   maxTextureSize: 1024
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 1
     mipBias: -1
-    wrapMode: -1
+    wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -44,6 +44,105 @@ TextureImporter:
     textureFormat: -2
     compressionQuality: 50
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: userinterface_parts_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 644
+        width: 562
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: userinterface_parts_1
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 647
+        width: 361
+        height: 107
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: userinterface_parts_2
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 667
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: userinterface_parts_3
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 650
+        width: 130
+        height: 128
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: userinterface_parts_4
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 35
+        width: 1292
+        height: 727
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: userinterface_parts_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 478
+        width: 357
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: userinterface_parts_6
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 0
+        width: 408
+        height: 548
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: userinterface_parts_7
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 328
+        width: 253
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: userinterface_parts_8
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 227
+        width: 54
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: userinterface_parts_9
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 35
+        width: 124
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: userinterface_parts_10
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 83
+        width: 293
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
   spritePackingTag: 
   userData: 
