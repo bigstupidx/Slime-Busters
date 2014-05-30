@@ -10,7 +10,8 @@ public class SlimeBaseMove : MonoBehaviour {
     {
         amiTor = GetComponent<Animator>();
     }
-
+    
+    //activated by hitRayFirere
     public void hit()
     {
         amiTor.SetTrigger("GotHit");
