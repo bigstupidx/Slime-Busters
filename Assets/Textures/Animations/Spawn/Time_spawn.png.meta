@@ -24,13 +24,13 @@ TextureImporter:
   maxTextureSize: 1024
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 1
     mipBias: -1
-    wrapMode: -1
+    wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -44,6 +44,150 @@ TextureImporter:
     textureFormat: -2
     compressionQuality: 50
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Time_spawn_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 753
+        width: 251
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Time_spawn_1
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 753
+        width: 251
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Time_spawn_2
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 753
+        width: 251
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Time_spawn_3
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 753
+        width: 251
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Time_spawn_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 502
+        width: 251
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Time_spawn_5
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 502
+        width: 251
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Time_spawn_6
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 502
+        width: 251
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Time_spawn_7
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 502
+        width: 251
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Time_spawn_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 251
+        width: 251
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Time_spawn_9
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 251
+        width: 251
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Time_spawn_10
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 251
+        width: 251
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Time_spawn_11
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 251
+        width: 251
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Time_spawn_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 251
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Time_spawn_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 0
+        width: 251
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Time_spawn_14
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 0
+        width: 251
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Time_spawn_15
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 0
+        width: 251
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
   spritePackingTag: 
   userData: 
