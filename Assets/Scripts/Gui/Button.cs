@@ -19,7 +19,7 @@ public class Button : MonoBehaviour {
 	}
 
 	void OnMouseDown () {
-		animator.SetTrigger ("GotHit");
+		animator.SetTrigger ("FinalHit");
 		StartCoroutine (SwitchScene ());
 	}
 
