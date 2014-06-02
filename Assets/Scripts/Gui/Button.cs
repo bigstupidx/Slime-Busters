@@ -6,7 +6,23 @@ public class Button : MonoBehaviour {
 	[SerializeField]
 	private string loadLevelName;
 	// Use this for initialization
-	void OnMouseDown () {
+	private Animator animator;
+
+	private void Start(){
+		animator = GetComponent<Animator>();
+	}
+
+	IEnumerator SwitchScene() {
+		//Debug.Log ("Load: "+loadLevelName);
+		yield return new WaitForSeconds(0.5f);
 		Application.LoadLevel (loadLevelName);
 	}
+
+	void OnMouseDown () {
+		animator.SetTrigger ("GotHit");
+		StartCoroutine (SwitchScene ());
+	}
+
+
+	
 }
