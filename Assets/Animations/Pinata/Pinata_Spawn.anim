@@ -19,37 +19,37 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: 21300000, guid: 67a8597113c0c3d4d88a4a0f1d7d7a5e, type: 3}
-    - time: .0166666675
+    - time: .0434782617
       value: {fileID: 21300002, guid: 67a8597113c0c3d4d88a4a0f1d7d7a5e, type: 3}
-    - time: .0333333351
+    - time: .0869565234
       value: {fileID: 21300004, guid: 67a8597113c0c3d4d88a4a0f1d7d7a5e, type: 3}
-    - time: .0500000007
+    - time: .130434781
       value: {fileID: 21300006, guid: 67a8597113c0c3d4d88a4a0f1d7d7a5e, type: 3}
-    - time: .0666666701
+    - time: .173913047
       value: {fileID: 21300008, guid: 67a8597113c0c3d4d88a4a0f1d7d7a5e, type: 3}
-    - time: .0833333358
+    - time: .217391297
       value: {fileID: 21300010, guid: 67a8597113c0c3d4d88a4a0f1d7d7a5e, type: 3}
-    - time: .100000001
+    - time: .260869563
       value: {fileID: 21300012, guid: 67a8597113c0c3d4d88a4a0f1d7d7a5e, type: 3}
-    - time: .116666667
+    - time: .304347813
       value: {fileID: 21300014, guid: 67a8597113c0c3d4d88a4a0f1d7d7a5e, type: 3}
-    - time: .13333334
+    - time: .347826093
       value: {fileID: 21300016, guid: 67a8597113c0c3d4d88a4a0f1d7d7a5e, type: 3}
-    - time: .150000006
+    - time: .391304344
       value: {fileID: 21300018, guid: 67a8597113c0c3d4d88a4a0f1d7d7a5e, type: 3}
-    - time: .166666672
+    - time: .434782594
       value: {fileID: 21300020, guid: 67a8597113c0c3d4d88a4a0f1d7d7a5e, type: 3}
-    - time: .183333337
+    - time: .478260875
       value: {fileID: 21300022, guid: 67a8597113c0c3d4d88a4a0f1d7d7a5e, type: 3}
-    - time: .200000003
+    - time: .521739125
       value: {fileID: 21300024, guid: 67a8597113c0c3d4d88a4a0f1d7d7a5e, type: 3}
-    - time: .216666669
+    - time: .565217376
       value: {fileID: 21300026, guid: 67a8597113c0c3d4d88a4a0f1d7d7a5e, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
-  m_SampleRate: 60
+  m_SampleRate: 23
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -57,7 +57,7 @@ AnimationClip:
   m_AnimationClipSettings:
     serializedVersion: 2
     m_StartTime: 0
-    m_StopTime: .233333334
+    m_StopTime: .608695626
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
