@@ -368,7 +368,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e807fc42f9bb5ea428396dbe79053bb0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadLevelName: Shop
+  loadLevelName: TestGame
 --- !u!58 &398261183
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -458,7 +458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e807fc42f9bb5ea428396dbe79053bb0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadLevelName: Shop
+  loadLevelName: TestGame
 --- !u!58 &628521655
 CircleCollider2D:
   m_ObjectHideFlags: 0
