@@ -82,8 +82,8 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 56244045}
-  - 61: {fileID: 56244044}
   - 114: {fileID: 56244043}
+  - 58: {fileID: 56244044}
   m_Layer: 0
   m_Name: Slime
   m_TagString: Untagged
@@ -102,10 +102,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5da8a89e1eda314c8ea5dee2e4eccc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ParentScrip: {fileID: 0}
+  _GotSlime: 0
   Slime: 0
   HP: 0
---- !u!61 &56244044
-BoxCollider2D:
+--- !u!58 &56244044
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -113,8 +115,8 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: 2.50999999, y: 2.50999999}
-  m_Center: {x: 0, y: 0}
+  m_Radius: 1.02999997
+  m_Center: {x: 0, y: -.430000007}
 --- !u!4 &56244045
 Transform:
   m_ObjectHideFlags: 0
@@ -122,10 +124,10 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 56244042}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.59722924, y: 2.31956005, z: 0}
+  m_LocalPosition: {x: 2.59722924, y: 1.31956005, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 550949298}
 --- !u!1 &340148432
 GameObject:
   m_ObjectHideFlags: 0
@@ -167,6 +169,54 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!1 &550949297
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 550949298}
+  - 114: {fileID: 550949299}
+  m_Layer: 0
+  m_Name: MollControle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &550949298
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 550949297}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 618331620}
+  - {fileID: 834753791}
+  - {fileID: 56244045}
+  - {fileID: 1467211826}
+  - {fileID: 1721765520}
+  - {fileID: 1830388839}
+  - {fileID: 1986556932}
+  m_Father: {fileID: 0}
+--- !u!114 &550949299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 550949297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90fe7b590e8d7114298bae5a9558ce9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Slimes: []
+  maxActivesSlimes: 3
+  currentActive: 0
 --- !u!1 &618331617
 GameObject:
   m_ObjectHideFlags: 0
@@ -175,8 +225,8 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 618331620}
-  - 61: {fileID: 618331619}
   - 114: {fileID: 618331618}
+  - 58: {fileID: 618331619}
   m_Layer: 0
   m_Name: Slime
   m_TagString: Untagged
@@ -195,10 +245,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5da8a89e1eda314c8ea5dee2e4eccc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ParentScrip: {fileID: 0}
+  _GotSlime: 0
   Slime: 0
   HP: 0
---- !u!61 &618331619
-BoxCollider2D:
+--- !u!58 &618331619
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -206,8 +258,8 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: 2.50999999, y: 2.50999999}
-  m_Center: {x: 0, y: 0}
+  m_Radius: 1.02999997
+  m_Center: {x: 0, y: -.430000007}
 --- !u!4 &618331620
 Transform:
   m_ObjectHideFlags: 0
@@ -215,10 +267,10 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 618331617}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.36682963, y: -1.34588432, z: 0}
+  m_LocalPosition: {x: -2.36682963, y: -2.34588432, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 550949298}
 --- !u!1 &834753788
 GameObject:
   m_ObjectHideFlags: 0
@@ -227,8 +279,8 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 834753791}
-  - 61: {fileID: 834753790}
   - 114: {fileID: 834753789}
+  - 58: {fileID: 834753790}
   m_Layer: 0
   m_Name: Slime
   m_TagString: Untagged
@@ -247,10 +299,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5da8a89e1eda314c8ea5dee2e4eccc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Slime: 7
+  ParentScrip: {fileID: 0}
+  _GotSlime: 0
+  Slime: 0
   HP: 0
---- !u!61 &834753790
-BoxCollider2D:
+--- !u!58 &834753790
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -258,8 +312,8 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: 2.50999999, y: 2.50999999}
-  m_Center: {x: 0, y: 0}
+  m_Radius: 1.02999997
+  m_Center: {x: 0, y: -.430000007}
 --- !u!4 &834753791
 Transform:
   m_ObjectHideFlags: 0
@@ -267,10 +321,10 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 834753788}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.36682963, y: -1.36682987, z: 0}
+  m_LocalPosition: {x: 2.36682963, y: -2.36682987, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 550949298}
 --- !u!1 &932068080
 GameObject:
   m_ObjectHideFlags: 0
@@ -369,8 +423,8 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1467211826}
-  - 61: {fileID: 1467211825}
   - 114: {fileID: 1467211824}
+  - 58: {fileID: 1467211825}
   m_Layer: 0
   m_Name: Slime
   m_TagString: Untagged
@@ -389,10 +443,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5da8a89e1eda314c8ea5dee2e4eccc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ParentScrip: {fileID: 0}
+  _GotSlime: 0
   Slime: 0
   HP: 0
---- !u!61 &1467211825
-BoxCollider2D:
+--- !u!58 &1467211825
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -400,8 +456,8 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: 2.50999999, y: 2.50999999}
-  m_Center: {x: 0, y: 0}
+  m_Radius: 1.02999997
+  m_Center: {x: 0, y: -.430000007}
 --- !u!4 &1467211826
 Transform:
   m_ObjectHideFlags: 0
@@ -409,10 +465,10 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1467211823}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.7127142, y: .120293379, z: 0}
+  m_LocalPosition: {x: 4.7127142, y: -.879706621, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 550949298}
 --- !u!1 &1563906114
 GameObject:
   m_ObjectHideFlags: 0
@@ -501,8 +557,8 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1721765520}
-  - 61: {fileID: 1721765519}
   - 114: {fileID: 1721765518}
+  - 58: {fileID: 1721765519}
   m_Layer: 0
   m_Name: Slime
   m_TagString: Untagged
@@ -521,10 +577,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5da8a89e1eda314c8ea5dee2e4eccc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ParentScrip: {fileID: 0}
+  _GotSlime: 0
   Slime: 0
   HP: 0
---- !u!61 &1721765519
-BoxCollider2D:
+--- !u!58 &1721765519
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -532,8 +590,8 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: 2.50999999, y: 2.50999999}
-  m_Center: {x: 0, y: 0}
+  m_Radius: 1.02999997
+  m_Center: {x: 0, y: -.430000007}
 --- !u!4 &1721765520
 Transform:
   m_ObjectHideFlags: 0
@@ -541,10 +599,10 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1721765517}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.0837816, y: .225020409, z: 0}
+  m_LocalPosition: {x: -.0837816, y: -.774979591, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 550949298}
 --- !u!1 &1830388836
 GameObject:
   m_ObjectHideFlags: 0
@@ -553,8 +611,8 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1830388839}
-  - 61: {fileID: 1830388838}
   - 114: {fileID: 1830388837}
+  - 58: {fileID: 1830388838}
   m_Layer: 0
   m_Name: Slime
   m_TagString: Untagged
@@ -573,10 +631,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5da8a89e1eda314c8ea5dee2e4eccc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ParentScrip: {fileID: 0}
+  _GotSlime: 0
   Slime: 0
   HP: 0
---- !u!61 &1830388838
-BoxCollider2D:
+--- !u!58 &1830388838
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -584,8 +644,8 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: 2.50999999, y: 2.50999999}
-  m_Center: {x: 0, y: 0}
+  m_Radius: 1.02999997
+  m_Center: {x: 0, y: -.430000007}
 --- !u!4 &1830388839
 Transform:
   m_ObjectHideFlags: 0
@@ -593,10 +653,10 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1830388836}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.3039937, y: 2.19388771, z: 0}
+  m_LocalPosition: {x: -2.3039937, y: 1.19388771, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 550949298}
 --- !u!1 &1986556929
 GameObject:
   m_ObjectHideFlags: 0
@@ -605,8 +665,8 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1986556932}
-  - 61: {fileID: 1986556931}
   - 114: {fileID: 1986556930}
+  - 58: {fileID: 1986556931}
   m_Layer: 0
   m_Name: Slime
   m_TagString: Untagged
@@ -625,10 +685,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5da8a89e1eda314c8ea5dee2e4eccc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ParentScrip: {fileID: 0}
+  _GotSlime: 0
   Slime: 0
   HP: 0
---- !u!61 &1986556931
-BoxCollider2D:
+--- !u!58 &1986556931
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -636,8 +698,8 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: 2.50999999, y: 2.50999999}
-  m_Center: {x: 0, y: 0}
+  m_Radius: 1.02999997
+  m_Center: {x: 0, y: -.430000007}
 --- !u!4 &1986556932
 Transform:
   m_ObjectHideFlags: 0
@@ -645,7 +707,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1986556929}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.75460434, y: .287856579, z: 0}
+  m_LocalPosition: {x: -4.75460434, y: -.712143421, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 550949298}
