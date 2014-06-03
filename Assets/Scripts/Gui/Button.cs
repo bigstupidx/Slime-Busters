@@ -14,7 +14,7 @@ public class Button : MonoBehaviour {
 
 	IEnumerator SwitchScene() {
 		//Debug.Log ("Load: "+loadLevelName);
-		yield return new WaitForSeconds(0.5f);
+		yield return new WaitForSeconds(0.7f);
 		Application.LoadLevel (loadLevelName);
 	}
 
