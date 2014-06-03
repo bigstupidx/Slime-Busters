@@ -5,12 +5,12 @@ AnimatorOverrideController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Time_Controler
+  m_Name: Boss_Controller
   m_Controller: {fileID: 9100000, guid: da422bcb1257b3f42b3e05bb8ab235b1, type: 2}
   m_Clips:
   - m_OriginalClip: {fileID: 7400000, guid: ecca7bfb4c62839499b374568239a24a, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: e8156589024eef345b8e9cb114b923bd, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e6f112cb4f7314d48b7ca167ee8c7ee7, type: 2}
   - m_OriginalClip: {fileID: 7400000, guid: 95ace6ccaa488624e8e1c1fcec6dd2a5, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: a3d137a17b986da4e9c8fb17d4772634, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 689cc3453befc9341a08650e4848775d, type: 2}
   - m_OriginalClip: {fileID: 7400000, guid: d3f7ec6cfd7e865468534b8afe00e0ae, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: ba1bbf712c834c640a220fa408a026cd, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 580727bf39daa9a4d98cdcfa7e1f3192, type: 2}

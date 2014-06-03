@@ -5,14 +5,12 @@ AnimatorOverrideController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Helmet_Controler
+  m_Name: Heart_Controller
   m_Controller: {fileID: 9100000, guid: da422bcb1257b3f42b3e05bb8ab235b1, type: 2}
   m_Clips:
   - m_OriginalClip: {fileID: 7400000, guid: ecca7bfb4c62839499b374568239a24a, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: ecca7bfb4c62839499b374568239a24a, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7ae226b3ab18f6640b7f98f7f6634df1, type: 2}
   - m_OriginalClip: {fileID: 7400000, guid: 95ace6ccaa488624e8e1c1fcec6dd2a5, type: 2}
     m_OverrideClip: {fileID: 7400000, guid: 95ace6ccaa488624e8e1c1fcec6dd2a5, type: 2}
-  - m_OriginalClip: {fileID: 7400000, guid: ea0b460cd06cf644284b1080ee14391d, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: ea0b460cd06cf644284b1080ee14391d, type: 2}
   - m_OriginalClip: {fileID: 7400000, guid: d3f7ec6cfd7e865468534b8afe00e0ae, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: d3f7ec6cfd7e865468534b8afe00e0ae, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b1cd3c833d2befe4aae891b4122e5444, type: 2}

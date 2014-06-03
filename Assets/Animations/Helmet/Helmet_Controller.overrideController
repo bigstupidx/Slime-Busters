@@ -5,12 +5,14 @@ AnimatorOverrideController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Pinata_controler
+  m_Name: Helmet_Controller
   m_Controller: {fileID: 9100000, guid: da422bcb1257b3f42b3e05bb8ab235b1, type: 2}
   m_Clips:
   - m_OriginalClip: {fileID: 7400000, guid: ecca7bfb4c62839499b374568239a24a, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: 9332bb62777215443a7da723f7d28909, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ecca7bfb4c62839499b374568239a24a, type: 2}
   - m_OriginalClip: {fileID: 7400000, guid: 95ace6ccaa488624e8e1c1fcec6dd2a5, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: 9176ef3140bf7094fa456adbe55d70ff, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 95ace6ccaa488624e8e1c1fcec6dd2a5, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ea0b460cd06cf644284b1080ee14391d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ea0b460cd06cf644284b1080ee14391d, type: 2}
   - m_OriginalClip: {fileID: 7400000, guid: d3f7ec6cfd7e865468534b8afe00e0ae, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: 05f4eb47a3383a44383e175e54bd39fd, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d3f7ec6cfd7e865468534b8afe00e0ae, type: 2}
