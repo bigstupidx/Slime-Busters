@@ -106,7 +106,7 @@ public class SlimeBaseMove : MonoBehaviour
         Go.transform.localPosition = Vector3.zero;
 
         amiTor = Go.GetComponent<Animator>();
-        Debug.Log(amiTor);
+        //Debug.Log(amiTor);
     }
 
     //activated by hitRayFirere
@@ -135,7 +135,7 @@ public class SlimeBaseMove : MonoBehaviour
             {
                 SlimeDead = true;
                 _GotSlime = false;
-                Debug.Log("deadSlime");
+                //Debug.Log("deadSlime");
             }
             else
             {
