@@ -19,6 +19,8 @@ public class SlimeBaseMove : MonoBehaviour
         }
     }
 
+    private Vector3 OffSet;
+
     public enum SlimeType
     {
         Bomb = 0,
@@ -103,10 +105,10 @@ public class SlimeBaseMove : MonoBehaviour
 
         GameObject Go = Instantiate(Resources.Load(toLoad)) as GameObject;
         Go.transform.parent = transform;
-        Go.transform.localPosition = Vector3.zero;
+        Go.transform.localPosition = Vector3.zero+OffSet;
 
         amiTor = Go.GetComponent<Animator>();
-        //Debug.Log(amiTor);
+
     }
 
     //activated by hitRayFirere
@@ -135,7 +137,6 @@ public class SlimeBaseMove : MonoBehaviour
             {
                 SlimeDead = true;
                 _GotSlime = false;
-                //Debug.Log("deadSlime");
             }
             else
             {
