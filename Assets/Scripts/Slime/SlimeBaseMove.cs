@@ -151,6 +151,7 @@ public class SlimeBaseMove : MonoBehaviour
             else
             {
                 killAction();
+                amiTor.SetTrigger("FinalHit");
                 SlimeDead = true;
                 //addScore;
             }
@@ -177,8 +178,14 @@ public class SlimeBaseMove : MonoBehaviour
         }
         else if (!SlimeDead && _GotSlime&&!Frozen)
         {
-            if (ToSlow <= 0)
+            if (!time&&ToSlow <= 0)
             {
+                _GotSlime = false;
+                killAction();
+            }
+            else if (!time&&ToSlow <= -5)
+            {
+                _GotSlime = false;
                 killAction();
             }
             else
@@ -190,10 +197,11 @@ public class SlimeBaseMove : MonoBehaviour
 
     void killAction()
     {
-        Destroy(amiTor.gameObject, 1f);
-        amiTor.SetTrigger("FinalHit");
-        Destroy(amiTor.gameObject, 1f);
-
+        if (amiTor != null)
+        {
+            amiTor.SetTrigger("FinalHit");
+            Destroy(amiTor.gameObject, 1f);
+        }
         HP = 0;
         ParentScrip.currentActive--;
 

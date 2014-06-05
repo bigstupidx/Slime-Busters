@@ -69,6 +69,7 @@ public class MollControler : MonoBehaviour {
                 else
                 {
                     PowerupEnabled[j] = false;
+                    PowerUpTimeLeft[j] = 0f;
                 }
             }
             for (int i = 0; i < 7; i++)
@@ -97,7 +98,7 @@ public class MollControler : MonoBehaviour {
                 break;
             case SlimeBaseMove.SlimeType.Ice:
                 PowerupEnabled[1] = true;
-                PowerUpTimeLeft[1] += 0.3f;
+                PowerUpTimeLeft[1] += 5f;
                 break;
             case SlimeBaseMove.SlimeType.Pinata:
                 break;
