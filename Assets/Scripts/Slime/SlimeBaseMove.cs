@@ -5,12 +5,12 @@ using System.Collections;
 [RequireComponent(typeof(CircleCollider2D))]
 public class SlimeBaseMove : MonoBehaviour
 {
-#region vars
+#region Normal vars
     private Animator amiTor;
     public MollControler ParentScrip;
     [SerializeField]
     private bool _GotSlime = false;
-    private bool SlimeDead = true;
+    public bool SlimeDead = false;
     public bool GotSlime
     {
         get
@@ -33,6 +33,16 @@ public class SlimeBaseMove : MonoBehaviour
         Normal = 7
     }
 
+    public enum Layer
+    {
+        Front=0,
+        middle=1,
+        back=2
+    }
+
+    [SerializeField]
+    private Layer layer;
+
     public SlimeType Slime;
 
     [SerializeField]
@@ -41,6 +51,10 @@ public class SlimeBaseMove : MonoBehaviour
     private float WaitTime = 0f; //used so animations dont cross paths
     private float ToSlow; // when zero the slime dies
 #endregion
+    #region Powerup var's
+    public bool Frozen;
+    public bool time;
+    #endregion
     public void GetSlime()
     {
         string toLoad = "Slimes/";
@@ -53,49 +67,49 @@ public class SlimeBaseMove : MonoBehaviour
             case SlimeType.Bomb:
                 HP = 1;
                 toLoad += "Bomb";
-                numbOfFrames = 9;
+                numbOfFrames = 14;
                 break;
             case SlimeType.Boss:
                 HP = 1;
                 toLoad += "Boss";
-                numbOfFrames = 9;
+                numbOfFrames = 14;
                 break;
             case SlimeType.Heart:
                 HP = 1;
                 toLoad += "Heart";
-                numbOfFrames = 9;
+                numbOfFrames = 14;
                 break;
             case SlimeType.Helmet:
                 HP = 3;
                 toLoad += "Helmet";
-                numbOfFrames = 9;
+                numbOfFrames = 14;
                 ToSlow = 4f;
                 break;
             case SlimeType.Ice:
                 HP = 1;
                 toLoad += "Ice";
-                numbOfFrames = 9;
+                numbOfFrames = 14;
                 break;
             case SlimeType.Pinata:
                 HP = 1;
                 toLoad += "Pinata";
-                numbOfFrames = 9;
+                numbOfFrames = 14;
                 break;
             case SlimeType.Time:
                 HP = 1;
                 toLoad += "Time";
-                numbOfFrames = 9;
+                numbOfFrames = 14;
                 break;
             case SlimeType.Normal:
                 HP = 1;
                 toLoad += "Normal";
-                numbOfFrames = 9;
+                numbOfFrames = 14;
                 break;
 
             default:
                  HP = 1;
                 toLoad += "Normal";
-                numbOfFrames = 9;
+                numbOfFrames = 14;
                 break;
         }
         _GotSlime = true;
@@ -107,6 +121,19 @@ public class SlimeBaseMove : MonoBehaviour
         Go.transform.parent = transform;
         Go.transform.localPosition = Vector3.zero+OffSet;
 
+        SpriteRenderer spr = Go.GetComponent<SpriteRenderer>();
+        switch (layer){
+            case Layer.Front:
+                spr.sortingOrder = 4;
+                break;
+            case Layer.middle:
+                spr.sortingOrder = 2;
+                break;
+            case Layer.back:
+                spr.sortingOrder = 0;
+                break;
+        }
+        
         amiTor = Go.GetComponent<Animator>();
 
     }
@@ -124,7 +151,12 @@ public class SlimeBaseMove : MonoBehaviour
             else
             {
                 killAction();
+                SlimeDead = true;
                 //addScore;
+            }
+            if (particleSystem != null)
+            {
+                particleSystem.Emit(20);
             }
         }
     }
@@ -143,7 +175,7 @@ public class SlimeBaseMove : MonoBehaviour
                 WaitTime -= Time.deltaTime;
             }
         }
-        else if (!SlimeDead && _GotSlime)
+        else if (!SlimeDead && _GotSlime&&!Frozen)
         {
             if (ToSlow <= 0)
             {
@@ -161,8 +193,11 @@ public class SlimeBaseMove : MonoBehaviour
         Destroy(amiTor.gameObject, 1f);
         amiTor.SetTrigger("FinalHit");
         Destroy(amiTor.gameObject, 1f);
-        SlimeDead = true;
+
         HP = 0;
         ParentScrip.currentActive--;
+
+        //powerups and stuffs
+        
     }
 }
