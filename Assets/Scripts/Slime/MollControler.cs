@@ -25,6 +25,7 @@ public class MollControler : MonoBehaviour {
         for (int i = 0; i < 7; i++)
         {
             Slimes[i].ParentScrip = this;
+            Slimes[i].name = " "+i;
         }
         startinlvl=Application.loadedLevel;
         StartCoroutine("Spawner");
@@ -42,10 +43,10 @@ public class MollControler : MonoBehaviour {
                 
                 if (!Slimes[i].GotSlime && currentActive < maxActivesSlimes && val < 0.8f)
                 {
-                    if (Random.value < 0.1f)
+                    if (Random.value < 0.4f)
                         Slimes[i].Slime = (SlimeBaseMove.SlimeType)(Mathf.FloorToInt(Random.Range(0, 8)));
                     else
-                        Slimes[i].Slime = SlimeBaseMove.SlimeType.Ice;
+                        Slimes[i].Slime = SlimeBaseMove.SlimeType.Normal;
                     Slimes[i].GetSlime();
                     currentActive++;
                     yield return new WaitForSeconds(0.2f);
@@ -69,6 +70,7 @@ public class MollControler : MonoBehaviour {
                 else
                 {
                     PowerupEnabled[j] = false;
+                    PowerUpTimeLeft[j] = 0f;
                 }
             }
             for (int i = 0; i < 7; i++)
@@ -97,7 +99,7 @@ public class MollControler : MonoBehaviour {
                 break;
             case SlimeBaseMove.SlimeType.Ice:
                 PowerupEnabled[1] = true;
-                PowerUpTimeLeft[1] += 0.3f;
+                PowerUpTimeLeft[1] += 5f;
                 break;
             case SlimeBaseMove.SlimeType.Pinata:
                 break;
