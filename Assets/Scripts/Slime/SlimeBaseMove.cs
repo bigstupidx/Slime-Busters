@@ -202,10 +202,8 @@ public class SlimeBaseMove : MonoBehaviour
             amiTor.SetTrigger("FinalHit");
             Destroy(amiTor.gameObject, 1f);
         }
+
         HP = 0;
         ParentScrip.currentActive--;
-
-        //powerups and stuffs
-        
     }
 }
