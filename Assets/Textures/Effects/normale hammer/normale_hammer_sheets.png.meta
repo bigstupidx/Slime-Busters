@@ -21,12 +21,12 @@ TextureImporter:
   generateCubemap: 0
   seamlessCubemap: 0
   textureFormat: -1
-  maxTextureSize: 1024
+  maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 1
     mipBias: -1
-    wrapMode: -1
+    wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -44,6 +44,1338 @@ TextureImporter:
     textureFormat: -2
     compressionQuality: 50
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: normale_hammer_sheets_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_2
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_3
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_4
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_5
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_6
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_7
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_8
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_9
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_10
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_11
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_12
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_13
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_14
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_15
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_16
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_17
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_18
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_19
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_20
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_21
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_22
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_23
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_24
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_25
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_26
+      rect:
+        serializedVersion: 2
+        x: 2002
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_27
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_28
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_29
+      rect:
+        serializedVersion: 2
+        x: 2233
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_30
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_31
+      rect:
+        serializedVersion: 2
+        x: 2387
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_32
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_33
+      rect:
+        serializedVersion: 2
+        x: 2541
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_34
+      rect:
+        serializedVersion: 2
+        x: 2618
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_35
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_36
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_37
+      rect:
+        serializedVersion: 2
+        x: 2849
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_38
+      rect:
+        serializedVersion: 2
+        x: 2926
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_39
+      rect:
+        serializedVersion: 2
+        x: 3003
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_40
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_41
+      rect:
+        serializedVersion: 2
+        x: 3157
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_42
+      rect:
+        serializedVersion: 2
+        x: 3234
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_43
+      rect:
+        serializedVersion: 2
+        x: 3311
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_44
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_45
+      rect:
+        serializedVersion: 2
+        x: 3465
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_46
+      rect:
+        serializedVersion: 2
+        x: 3542
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_47
+      rect:
+        serializedVersion: 2
+        x: 3619
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_48
+      rect:
+        serializedVersion: 2
+        x: 3696
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_49
+      rect:
+        serializedVersion: 2
+        x: 3773
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_50
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_51
+      rect:
+        serializedVersion: 2
+        x: 3927
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_52
+      rect:
+        serializedVersion: 2
+        x: 4004
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_53
+      rect:
+        serializedVersion: 2
+        x: 4081
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_54
+      rect:
+        serializedVersion: 2
+        x: 4158
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_55
+      rect:
+        serializedVersion: 2
+        x: 4235
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_56
+      rect:
+        serializedVersion: 2
+        x: 4312
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_57
+      rect:
+        serializedVersion: 2
+        x: 4389
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_58
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_59
+      rect:
+        serializedVersion: 2
+        x: 4543
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_60
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_61
+      rect:
+        serializedVersion: 2
+        x: 4697
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_62
+      rect:
+        serializedVersion: 2
+        x: 4774
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_63
+      rect:
+        serializedVersion: 2
+        x: 4851
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_64
+      rect:
+        serializedVersion: 2
+        x: 4928
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_65
+      rect:
+        serializedVersion: 2
+        x: 5005
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_66
+      rect:
+        serializedVersion: 2
+        x: 5082
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_67
+      rect:
+        serializedVersion: 2
+        x: 5159
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_68
+      rect:
+        serializedVersion: 2
+        x: 5236
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_69
+      rect:
+        serializedVersion: 2
+        x: 5313
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_70
+      rect:
+        serializedVersion: 2
+        x: 5390
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_71
+      rect:
+        serializedVersion: 2
+        x: 5467
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_72
+      rect:
+        serializedVersion: 2
+        x: 5544
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_73
+      rect:
+        serializedVersion: 2
+        x: 5621
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_74
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_75
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_76
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_77
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_78
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_79
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_80
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_81
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_82
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_83
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_84
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_85
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_86
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_87
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_88
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_89
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_90
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_91
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_92
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_93
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_94
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_95
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_96
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_97
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_98
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_99
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_100
+      rect:
+        serializedVersion: 2
+        x: 2002
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_101
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_102
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_103
+      rect:
+        serializedVersion: 2
+        x: 2233
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_104
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_105
+      rect:
+        serializedVersion: 2
+        x: 2387
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_106
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_107
+      rect:
+        serializedVersion: 2
+        x: 2541
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_108
+      rect:
+        serializedVersion: 2
+        x: 2618
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_109
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_110
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_111
+      rect:
+        serializedVersion: 2
+        x: 2849
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_112
+      rect:
+        serializedVersion: 2
+        x: 2926
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_113
+      rect:
+        serializedVersion: 2
+        x: 3003
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_114
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_115
+      rect:
+        serializedVersion: 2
+        x: 3157
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_116
+      rect:
+        serializedVersion: 2
+        x: 3234
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_117
+      rect:
+        serializedVersion: 2
+        x: 3311
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_118
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_119
+      rect:
+        serializedVersion: 2
+        x: 3465
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_120
+      rect:
+        serializedVersion: 2
+        x: 3542
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_121
+      rect:
+        serializedVersion: 2
+        x: 3619
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_122
+      rect:
+        serializedVersion: 2
+        x: 3696
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_123
+      rect:
+        serializedVersion: 2
+        x: 3773
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_124
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_125
+      rect:
+        serializedVersion: 2
+        x: 3927
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_126
+      rect:
+        serializedVersion: 2
+        x: 4004
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_127
+      rect:
+        serializedVersion: 2
+        x: 4081
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_128
+      rect:
+        serializedVersion: 2
+        x: 4158
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_129
+      rect:
+        serializedVersion: 2
+        x: 4235
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_130
+      rect:
+        serializedVersion: 2
+        x: 4312
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_131
+      rect:
+        serializedVersion: 2
+        x: 4389
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_132
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_133
+      rect:
+        serializedVersion: 2
+        x: 4543
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_134
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_135
+      rect:
+        serializedVersion: 2
+        x: 4697
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_136
+      rect:
+        serializedVersion: 2
+        x: 4774
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_137
+      rect:
+        serializedVersion: 2
+        x: 4851
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_138
+      rect:
+        serializedVersion: 2
+        x: 4928
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_139
+      rect:
+        serializedVersion: 2
+        x: 5005
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_140
+      rect:
+        serializedVersion: 2
+        x: 5082
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_141
+      rect:
+        serializedVersion: 2
+        x: 5159
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_142
+      rect:
+        serializedVersion: 2
+        x: 5236
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_143
+      rect:
+        serializedVersion: 2
+        x: 5313
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_144
+      rect:
+        serializedVersion: 2
+        x: 5390
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_145
+      rect:
+        serializedVersion: 2
+        x: 5467
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_146
+      rect:
+        serializedVersion: 2
+        x: 5544
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: normale_hammer_sheets_147
+      rect:
+        serializedVersion: 2
+        x: 5621
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
   spritePackingTag: 
   userData: 

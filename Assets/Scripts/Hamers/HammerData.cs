@@ -5,4 +5,6 @@ using System.Collections;
 public class HammerData
 {
     public string name;
+    public int cost;
+    public RuntimeAnimatorController controler;
 }

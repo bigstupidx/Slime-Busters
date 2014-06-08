@@ -24,13 +24,13 @@ TextureImporter:
   maxTextureSize: 1024
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 1
     mipBias: -1
-    wrapMode: -1
+    wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -44,6 +44,285 @@ TextureImporter:
     textureFormat: -2
     compressionQuality: 50
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: ice_hammer_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175
+        width: 303
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ice_hammer_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 175
+        width: 303
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ice_hammer_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 175
+        width: 303
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ice_hammer_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 175
+        width: 303
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ice_hammer_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 175
+        width: 303
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ice_hammer_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 175
+        width: 303
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ice_hammer_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 175
+        width: 303
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ice_hammer_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 2121
+        y: 175
+        width: 303
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ice_hammer_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 2424
+        y: 175
+        width: 303
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ice_hammer_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2727
+        y: 175
+        width: 303
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ice_hammer_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 3030
+        y: 175
+        width: 303
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ice_hammer_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 3333
+        y: 175
+        width: 303
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ice_hammer_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 3636
+        y: 175
+        width: 303
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ice_hammer_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 3939
+        y: 175
+        width: 303
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ice_hammer_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 4242
+        y: 175
+        width: 303
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ice_hammer_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 4545
+        y: 175
+        width: 303
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ice_hammer_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 303
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ice_hammer_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 0
+        width: 303
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ice_hammer_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 0
+        width: 303
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ice_hammer_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 0
+        width: 303
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ice_hammer_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 0
+        width: 303
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ice_hammer_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 0
+        width: 303
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ice_hammer_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 0
+        width: 303
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ice_hammer_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2121
+        y: 0
+        width: 303
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ice_hammer_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 2424
+        y: 0
+        width: 303
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ice_hammer_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 2727
+        y: 0
+        width: 303
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ice_hammer_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 3030
+        y: 0
+        width: 303
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ice_hammer_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 3333
+        y: 0
+        width: 303
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ice_hammer_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 3636
+        y: 0
+        width: 303
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ice_hammer_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 3939
+        y: 0
+        width: 303
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: ice_hammer_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 4242
+        y: 0
+        width: 303
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
   spritePackingTag: 
   userData: 

@@ -9,10 +9,16 @@ using System.Collections;
      {
          id = _id;
          shop = _shop;
+         //Debug.Log(id+" "+shop);
      }
 
      public void buttonClick()
      {
-         shop.SetActiveHammer(id);
+         shop.HammerButtonClick(id);
+     }
+
+     public void buttonToggle()
+     {
+         shop.HammerButtonToggle(id);
      }
 }

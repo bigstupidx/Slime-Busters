@@ -24,13 +24,13 @@ TextureImporter:
   maxTextureSize: 1024
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 1
     mipBias: -1
-    wrapMode: -1
+    wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -44,6 +44,384 @@ TextureImporter:
     textureFormat: -2
     compressionQuality: 50
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: facebook_hammer_sheets_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 214
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_1
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 214
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_2
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 214
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_3
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 214
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_4
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 214
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_5
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 214
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_6
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 214
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_7
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 214
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_8
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 214
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_9
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 214
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_10
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 214
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_11
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 214
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_12
+      rect:
+        serializedVersion: 2
+        x: 2940
+        y: 214
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_13
+      rect:
+        serializedVersion: 2
+        x: 3185
+        y: 214
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_14
+      rect:
+        serializedVersion: 2
+        x: 3430
+        y: 214
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_15
+      rect:
+        serializedVersion: 2
+        x: 3675
+        y: 214
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_16
+      rect:
+        serializedVersion: 2
+        x: 3920
+        y: 214
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_17
+      rect:
+        serializedVersion: 2
+        x: 4165
+        y: 214
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_18
+      rect:
+        serializedVersion: 2
+        x: 4410
+        y: 214
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_19
+      rect:
+        serializedVersion: 2
+        x: 4655
+        y: 214
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_20
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 214
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_22
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 0
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_23
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 0
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_24
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 0
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_25
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 0
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_26
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 0
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_27
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 0
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_28
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 0
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_29
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 0
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_30
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 0
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_31
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 0
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_32
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 0
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_33
+      rect:
+        serializedVersion: 2
+        x: 2940
+        y: 0
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_34
+      rect:
+        serializedVersion: 2
+        x: 3185
+        y: 0
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_35
+      rect:
+        serializedVersion: 2
+        x: 3430
+        y: 0
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_36
+      rect:
+        serializedVersion: 2
+        x: 3675
+        y: 0
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_37
+      rect:
+        serializedVersion: 2
+        x: 3920
+        y: 0
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_38
+      rect:
+        serializedVersion: 2
+        x: 4165
+        y: 0
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_39
+      rect:
+        serializedVersion: 2
+        x: 4410
+        y: 0
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_40
+      rect:
+        serializedVersion: 2
+        x: 4655
+        y: 0
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: facebook_hammer_sheets_41
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 0
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
   spritePackingTag: 
   userData: 

@@ -7,28 +7,49 @@ public class Shop : MonoBehaviour {
     [SerializeField]
     private UILabel CostLable;
     [SerializeField]
+    private UILabel MoneyLable;
+    [SerializeField]
     private GameObject hammerButton;
     [SerializeField]
     private GameObject hammerButtonContainer;
-    private UIPanel hammerPannel;
+    //private UIPanel hammerPannel;
 
-    private int currentHammerId;
+    private int currentHammerId = 0;
+    private int currentHammerPreviewId = 0;
+    private int p_money = 3294;
+    private HammerControler hammerColtrol;
 
-    public void SetActiveHammer(int newCurrentHammerId)
+    public void HammerButtonClick(int clickedId)
     {
-        currentHammerId = newCurrentHammerId;
-        Debug.Log("button " + currentHammerId + " clicked\n name:"+hammers.hammers[currentHammerId].name);
+        currentHammerPreviewId = clickedId;
+        UpdateCostMoneyLabels();
+        Debug.Log("button " + clickedId + " clicked\n name:" + hammers.hammers[clickedId].name);
+        
+
     }
 
+    public void HammerButtonToggle(int newCurrentHammerId)
+    {
+        UpdateCostMoneyLabels();
+        currentHammerId = newCurrentHammerId;
+        Debug.Log("toggle " + currentHammerId + " toggled\n name:" + hammers.hammers[currentHammerId].name);
+        hammerColtrol.SetControler(hammers.hammers[currentHammerId].controler);
+    }
+
+    public void UpdateCostMoneyLabels()
+    {
+        CostLable.text = "Cost: " + hammers.hammers[currentHammerPreviewId].cost;
+        MoneyLable.text = "Money: " + p_money.ToString();
+    }
 
 	void Start () {
-        CostLable.text = "Cost:500";
-        hammerPannel = hammerButtonContainer.GetComponent<UIPanel>();
-        //hammerPannel.
+        UpdateCostMoneyLabels();
+        //hammerPannel = hammerButtonContainer.GetComponent<UIPanel>();
         for (int i = 0; i < hammers.hammers.Length; i++)
         {
             AddHammerButton(270 - (95 * i), hammers.hammers[i].name,i);
         }
+        hammerColtrol = new HammerControler(this.transform, hammers.hammers[0].controler);
 	}
 
     private delegate void TextAppendDelegate(string txt, string text);
@@ -36,13 +57,19 @@ public class Shop : MonoBehaviour {
     private void AddHammerButton(int y,string name,int id)
     {
         GameObject newButton = (GameObject)GameObject.Instantiate(hammerButton, Vector3.zero, Quaternion.identity);
+       
         UILabel newLable = newButton.transform.GetChild(0).gameObject.GetComponent<UILabel>();
-        UIButton newUIButton = newButton.GetComponent<UIButton>();
+        newLable.text = name;
+
+        UIButton newUIButton = newButton.GetComponent<UIButton>(); 
         newButton.GetComponent<HammerButton>().initButton(id,this);
         EventDelegate newEvent = new EventDelegate(newButton.GetComponent<HammerButton>(), "buttonClick");
-        //newEvent.
         newUIButton.onClick.Add(newEvent);
-        newLable.text = name;
+
+        UIToggle newToggle = newButton.transform.GetChild(1).gameObject.GetComponent<UIToggle>();
+        newEvent = new EventDelegate(newButton.GetComponent<HammerButton>(), "buttonToggle");
+        newToggle.onChange.Add(newEvent);
+
         newButton.name = "Hammer Button"+name;
         newButton.transform.parent = hammerButtonContainer.transform;
         newButton.GetComponent<UISprite>().leftAnchor.target = hammerButtonContainer.transform;
@@ -54,6 +81,11 @@ public class Shop : MonoBehaviour {
     public void HammerButtonEvent(int n)
     {
         Debug.Log("HammerButtonEvent: "+n);
+    }
+
+    public void Update()
+    {
+        hammerColtrol.Tick();
     }
 
     public void Back()

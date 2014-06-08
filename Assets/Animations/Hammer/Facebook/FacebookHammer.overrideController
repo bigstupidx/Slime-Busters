@@ -1,0 +1,12 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: FacebookHammer
+  m_Controller: {fileID: 9100000, guid: fcaf8a12bd8b526488b190bc5c5f6931, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 748c422b35f24dd41a532507a5be2ad4, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b075fb12d8866f1418b868b58e599096, type: 2}

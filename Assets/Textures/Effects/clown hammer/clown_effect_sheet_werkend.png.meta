@@ -24,13 +24,13 @@ TextureImporter:
   maxTextureSize: 1024
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 1
     mipBias: -1
-    wrapMode: -1
+    wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -44,6 +44,303 @@ TextureImporter:
     textureFormat: -2
     compressionQuality: 50
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: clown_effect_sheet_werkend_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 588
+        width: 515
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: clown_effect_sheet_werkend_1
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 588
+        width: 515
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: clown_effect_sheet_werkend_2
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 588
+        width: 515
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: clown_effect_sheet_werkend_3
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 588
+        width: 515
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: clown_effect_sheet_werkend_4
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 588
+        width: 515
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: clown_effect_sheet_werkend_5
+      rect:
+        serializedVersion: 2
+        x: 2575
+        y: 588
+        width: 515
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: clown_effect_sheet_werkend_6
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 588
+        width: 515
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: clown_effect_sheet_werkend_7
+      rect:
+        serializedVersion: 2
+        x: 3605
+        y: 588
+        width: 515
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: clown_effect_sheet_werkend_8
+      rect:
+        serializedVersion: 2
+        x: 4120
+        y: 588
+        width: 515
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: clown_effect_sheet_werkend_9
+      rect:
+        serializedVersion: 2
+        x: 4635
+        y: 588
+        width: 515
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: clown_effect_sheet_werkend_10
+      rect:
+        serializedVersion: 2
+        x: 5150
+        y: 588
+        width: 515
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: clown_effect_sheet_werkend_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 318
+        width: 515
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: clown_effect_sheet_werkend_12
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 318
+        width: 515
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: clown_effect_sheet_werkend_13
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 318
+        width: 515
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: clown_effect_sheet_werkend_14
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 318
+        width: 515
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: clown_effect_sheet_werkend_15
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 318
+        width: 515
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: clown_effect_sheet_werkend_16
+      rect:
+        serializedVersion: 2
+        x: 2575
+        y: 318
+        width: 515
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: clown_effect_sheet_werkend_17
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 318
+        width: 515
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: clown_effect_sheet_werkend_18
+      rect:
+        serializedVersion: 2
+        x: 3605
+        y: 318
+        width: 515
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: clown_effect_sheet_werkend_19
+      rect:
+        serializedVersion: 2
+        x: 4120
+        y: 318
+        width: 515
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: clown_effect_sheet_werkend_20
+      rect:
+        serializedVersion: 2
+        x: 4635
+        y: 318
+        width: 515
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: clown_effect_sheet_werkend_21
+      rect:
+        serializedVersion: 2
+        x: 5150
+        y: 318
+        width: 515
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: clown_effect_sheet_werkend_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 515
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: clown_effect_sheet_werkend_23
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 48
+        width: 515
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: clown_effect_sheet_werkend_24
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 48
+        width: 515
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: clown_effect_sheet_werkend_25
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 48
+        width: 515
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: clown_effect_sheet_werkend_26
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 48
+        width: 515
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: clown_effect_sheet_werkend_27
+      rect:
+        serializedVersion: 2
+        x: 2575
+        y: 48
+        width: 515
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: clown_effect_sheet_werkend_28
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 48
+        width: 515
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: clown_effect_sheet_werkend_29
+      rect:
+        serializedVersion: 2
+        x: 3605
+        y: 48
+        width: 515
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: clown_effect_sheet_werkend_30
+      rect:
+        serializedVersion: 2
+        x: 4120
+        y: 48
+        width: 515
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: clown_effect_sheet_werkend_31
+      rect:
+        serializedVersion: 2
+        x: 4635
+        y: 48
+        width: 515
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: clown_effect_sheet_werkend_32
+      rect:
+        serializedVersion: 2
+        x: 5150
+        y: 48
+        width: 515
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
   spritePackingTag: 
   userData: 
