@@ -1,0 +1,229 @@
+fileFormatVersion: 2
+guid: ac2a7b6fa0075c94e9f78ae18496a66d
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: helmet_idle1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 753
+        width: 251
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: helmet_idle1_1
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 753
+        width: 251
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: helmet_idle1_2
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 753
+        width: 251
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: helmet_idle1_3
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 753
+        width: 251
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: helmet_idle1_4
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 753
+        width: 251
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: helmet_idle1_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 502
+        width: 251
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: helmet_idle1_6
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 502
+        width: 251
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: helmet_idle1_7
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 502
+        width: 251
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: helmet_idle1_8
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 502
+        width: 251
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: helmet_idle1_9
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 502
+        width: 251
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: helmet_idle1_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 251
+        width: 251
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: helmet_idle1_11
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 251
+        width: 251
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: helmet_idle1_12
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 251
+        width: 251
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: helmet_idle1_13
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 251
+        width: 251
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: helmet_idle1_14
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 251
+        width: 251
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: helmet_idle1_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 251
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: helmet_idle1_16
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 0
+        width: 251
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: helmet_idle1_17
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 0
+        width: 251
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: helmet_idle1_18
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 0
+        width: 251
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: helmet_idle1_19
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 0
+        width: 251
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 
