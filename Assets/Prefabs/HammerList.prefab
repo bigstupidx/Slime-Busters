@@ -48,9 +48,9 @@ MonoBehaviour:
   - name: Ice
     cost: 100
     controler: {fileID: 22100000, guid: dfba3dc8ed93b924dbc8a272dedd871e, type: 2}
-  - name: Ink
-    cost: 200
-    controler: {fileID: 22100000, guid: c8b9547b39d84354c9de79ed325426d6, type: 2}
+  - name: Clown
+    cost: 500
+    controler: {fileID: 22100000, guid: 5feb623cf6dd8e945a7cd51da43165e3, type: 2}
   - name: Pixel
     cost: 200
     controler: {fileID: 22100000, guid: 476033460219d294d8f8f28c8773965f, type: 2}
@@ -63,9 +63,6 @@ MonoBehaviour:
   - name: Comic
     cost: 300
     controler: {fileID: 22100000, guid: 6a9cd27e1b66df94f8c05775f4ace275, type: 2}
-  - name: Clown
-    cost: 500
-    controler: {fileID: 22100000, guid: 5feb623cf6dd8e945a7cd51da43165e3, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

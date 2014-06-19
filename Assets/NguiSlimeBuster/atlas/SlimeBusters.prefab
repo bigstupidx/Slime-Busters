@@ -40,6 +40,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: 77e1780792fa2da4e81eadba43549bdf, type: 2}
   mSprites:
+  - name: fink
+    x: 1848
+    y: 1838
+    width: 142
+    height: 109
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: shopBack
+    x: 0
+    y: 1472
+    width: 1024
+    height: 576
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   - name: slice01_01
     x: 1430
     y: 1948
@@ -80,8 +106,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: slice04_04
-    x: 1848
-    y: 1882
+    x: 1430
+    y: 1490
     width: 64
     height: 65
     borderLeft: 0
@@ -162,19 +188,6 @@ MonoBehaviour:
     y: 1502
     width: 404
     height: 546
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: slice11_11
-    x: 0
-    y: 1473
-    width: 1024
-    height: 575
     borderLeft: 0
     borderRight: 0
     borderTop: 0

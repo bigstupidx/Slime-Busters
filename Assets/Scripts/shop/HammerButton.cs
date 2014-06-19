@@ -12,13 +12,13 @@ using System.Collections;
          //Debug.Log(id+" "+shop);
      }
 
-     public void buttonClick()
+     public void ButtonClick()
      {
          shop.HammerButtonClick(id);
      }
 
-     public void buttonToggle()
+     public void ToggleClick()
      {
-         shop.HammerButtonToggle(id);
+         shop.HammerToggleClicked(id);
      }
 }

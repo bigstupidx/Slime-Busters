@@ -19,21 +19,34 @@ public class Shop : MonoBehaviour {
     private int p_money = 3294;
     private HammerControler hammerColtrol;
 
+    void Start () {
+        UpdateCostMoneyLabels();
+        //hammerPannel = hammerButtonContainer.GetComponent<UIPanel>();
+        for (int i = 0; i < hammers.hammers.Length; i++)
+        {
+            AddHammerButton(270 - (95 * i), hammers.hammers[i].name,i);
+        }
+        hammerColtrol = new HammerControler(this.transform, hammers.hammers[0].controler);
+		//set active hammer
+        Debug.Log("Start");
+        HammerToggleClicked(GameDataController.getSaveInt(SaveInt.currentHammer));
+		Debug.Log (GameDataController.getSaveInt(SaveInt.currentHammer));
+
+	}
     public void HammerButtonClick(int clickedId)
     {
         currentHammerPreviewId = clickedId;
         UpdateCostMoneyLabels();
         Debug.Log("button " + clickedId + " clicked\n name:" + hammers.hammers[clickedId].name);
-        
-
     }
 
-    public void HammerButtonToggle(int newCurrentHammerId)
+    public void HammerToggleClicked(int newCurrentHammerId)
     {
         UpdateCostMoneyLabels();
         currentHammerId = newCurrentHammerId;
         Debug.Log("toggle " + currentHammerId + " toggled\n name:" + hammers.hammers[currentHammerId].name);
         hammerColtrol.SetControler(hammers.hammers[currentHammerId].controler);
+        GameDataController.setSaveInt(SaveInt.currentHammer, newCurrentHammerId);
     }
 
     public void UpdateCostMoneyLabels()
@@ -42,15 +55,7 @@ public class Shop : MonoBehaviour {
         MoneyLable.text = "Money: " + p_money.ToString();
     }
 
-	void Start () {
-        UpdateCostMoneyLabels();
-        //hammerPannel = hammerButtonContainer.GetComponent<UIPanel>();
-        for (int i = 0; i < hammers.hammers.Length; i++)
-        {
-            AddHammerButton(270 - (95 * i), hammers.hammers[i].name,i);
-        }
-        hammerColtrol = new HammerControler(this.transform, hammers.hammers[0].controler);
-	}
+	
 
     private delegate void TextAppendDelegate(string txt, string text);
 
@@ -63,12 +68,12 @@ public class Shop : MonoBehaviour {
 
         UIButton newUIButton = newButton.GetComponent<UIButton>(); 
         newButton.GetComponent<HammerButton>().initButton(id,this);
-        EventDelegate newEvent = new EventDelegate(newButton.GetComponent<HammerButton>(), "buttonClick");
+        EventDelegate newEvent = new EventDelegate(newButton.GetComponent<HammerButton>(), "ButtonClick");
         newUIButton.onClick.Add(newEvent);
 
-        UIToggle newToggle = newButton.transform.GetChild(1).gameObject.GetComponent<UIToggle>();
-        newEvent = new EventDelegate(newButton.GetComponent<HammerButton>(), "buttonToggle");
-        newToggle.onChange.Add(newEvent);
+        UIButton newToggle = newButton.transform.GetChild(1).gameObject.GetComponent<UIButton>();
+        newEvent = new EventDelegate(newButton.GetComponent<HammerButton>(), "ToggleClick");
+        newToggle.onClick.Add(newEvent);
 
         newButton.name = "Hammer Button"+name;
         newButton.transform.parent = hammerButtonContainer.transform;
