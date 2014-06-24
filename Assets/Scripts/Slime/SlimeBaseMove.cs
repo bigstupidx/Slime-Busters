@@ -117,6 +117,7 @@ public class SlimeBaseMove : MonoBehaviour
         WaitTime = (1f / 23 * numbOfFrames);
 
         GameObject Go = Instantiate(Resources.Load(toLoad)) as GameObject;
+        Go.name = "Slime";
         Go.transform.parent = transform;
         Go.transform.localPosition = Vector3.zero+OffSet;
 
