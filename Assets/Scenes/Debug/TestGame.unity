@@ -106,8 +106,6 @@ MonoBehaviour:
   _GotSlime: 0
   SlimeDead: 0
   layer: 2
-  Slime: 0
-  HP: 0
   Frozen: 0
   time: 0
 --- !u!58 &56244044
@@ -253,8 +251,6 @@ MonoBehaviour:
   _GotSlime: 0
   SlimeDead: 0
   layer: 0
-  Slime: 0
-  HP: 0
   Frozen: 0
   time: 0
 --- !u!58 &618331619
@@ -311,8 +307,6 @@ MonoBehaviour:
   _GotSlime: 0
   SlimeDead: 0
   layer: 0
-  Slime: 0
-  HP: 0
   Frozen: 0
   time: 0
 --- !u!58 &834753790
@@ -717,8 +711,6 @@ MonoBehaviour:
   _GotSlime: 0
   SlimeDead: 0
   layer: 1
-  Slime: 0
-  HP: 0
   Frozen: 0
   time: 0
 --- !u!58 &1467211825
@@ -905,8 +897,6 @@ MonoBehaviour:
   _GotSlime: 0
   SlimeDead: 0
   layer: 1
-  Slime: 0
-  HP: 0
   Frozen: 0
   time: 0
 --- !u!58 &1721765519
@@ -963,8 +953,6 @@ MonoBehaviour:
   _GotSlime: 0
   SlimeDead: 0
   layer: 2
-  Slime: 0
-  HP: 0
   Frozen: 0
   time: 0
 --- !u!58 &1830388838
@@ -1021,8 +1009,6 @@ MonoBehaviour:
   _GotSlime: 0
   SlimeDead: 0
   layer: 1
-  Slime: 0
-  HP: 0
   Frozen: 0
   time: 0
 --- !u!58 &1986556931
