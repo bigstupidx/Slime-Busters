@@ -53,7 +53,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100002}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -147, y: 37, z: 0}
+  m_LocalPosition: {x: -116.750023, y: -245.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400000}
@@ -68,7 +68,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 194, y: 63, z: 0}
+  m_Size: {x: 180, y: 70, z: 0}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &11400004
 MonoBehaviour:
@@ -87,7 +87,10 @@ MonoBehaviour:
   duration: .200000003
   disabledColor: {r: .5, g: .5, b: .5, a: 1}
   dragHighlight: 0
-  onClick: []
+  onClick:
+  - mTarget: {fileID: 0}
+    mMethodName: Buy
+    oneShot: 0
 --- !u!114 &11400006
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -117,17 +120,17 @@ MonoBehaviour:
     absolute: -1
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
-  mWidth: 188
-  mHeight: 60
+  mWidth: 174
+  mHeight: 67
   mDepth: 5
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 3.13333344
+  aspectRatio: 2.5970149
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 12800000, guid: d663b2ac6a9539640af1ce6c0ab83226, type: 3}
   mFont: {fileID: 0}
-  mText: Use
+  mText: Buy
   mFontSize: 33
   mFontStyle: 0
   mAlignment: 0
@@ -181,28 +184,28 @@ MonoBehaviour:
   leftAnchor:
     target: {fileID: 0}
     relative: 0
-    absolute: 16
+    absolute: 28
   rightAnchor:
     target: {fileID: 0}
     relative: .5
-    absolute: 55
+    absolute: -27
   bottomAnchor:
     target: {fileID: 0}
     relative: 0
-    absolute: 13
+    absolute: 34
   topAnchor:
     target: {fileID: 0}
     relative: 0
-    absolute: 76
+    absolute: 104
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
-  mWidth: 194
-  mHeight: 63
+  mWidth: 180
+  mHeight: 70
   mDepth: 4
   autoResizeBoxCollider: 1
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 3.07936502
+  aspectRatio: 3.42857146
   mAtlas: {fileID: 11400000, guid: 4d8cd6fcec3dddc4faeaa148811b1549, type: 2}
   mSpriteName: slice06_06
   mType: 0
