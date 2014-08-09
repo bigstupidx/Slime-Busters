@@ -23,7 +23,7 @@ public class HammerControler
         if (Input.GetMouseButtonDown(0))
         {
             hammer = new GameObject("hammer");
-            hammer.AddComponent<SpriteRenderer>();
+            hammer.AddComponent<SpriteRenderer>().sortingLayerName = "hammerEffects";
             animator = hammer.AddComponent<Animator>();
             animator.runtimeAnimatorController = controler;
             animator.SetTrigger("hit");

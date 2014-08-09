@@ -45,6 +45,10 @@ TagManager:
     userID: 4
     uniqueID: 2716431909
     locked: 0
+  - name: hammerEffects
+    userID: 5
+    uniqueID: 2764465575
+    locked: 0
   - name: ui
     userID: 1
     uniqueID: 2923432217
