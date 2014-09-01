@@ -1,6 +1,52 @@
 fileFormatVersion: 2
 guid: f7e8eda6c0cbf4347a938e7d80715f42
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: comic_hammer_sheet_0
+    21300002: comic_hammer_sheet_1
+    21300004: comic_hammer_sheet_2
+    21300006: comic_hammer_sheet_3
+    21300008: comic_hammer_sheet_4
+    21300010: comic_hammer_sheet_5
+    21300012: comic_hammer_sheet_6
+    21300014: comic_hammer_sheet_7
+    21300016: comic_hammer_sheet_8
+    21300018: comic_hammer_sheet_9
+    21300020: comic_hammer_sheet_10
+    21300022: comic_hammer_sheet_11
+    21300024: comic_hammer_sheet_12
+    21300026: comic_hammer_sheet_13
+    21300028: comic_hammer_sheet_14
+    21300030: comic_hammer_sheet_15
+    21300032: comic_hammer_sheet_16
+    21300034: comic_hammer_sheet_17
+    21300036: comic_hammer_sheet_18
+    21300038: comic_hammer_sheet_19
+    21300040: comic_hammer_sheet_20
+    21300042: comic_hammer_sheet_21
+    21300044: comic_hammer_sheet_22
+    21300046: comic_hammer_sheet_23
+    21300048: comic_hammer_sheet_24
+    21300050: comic_hammer_sheet_25
+    21300052: comic_hammer_sheet_26
+    21300054: comic_hammer_sheet_27
+    21300056: comic_hammer_sheet_28
+    21300058: comic_hammer_sheet_29
+    21300060: comic_hammer_sheet_30
+    21300062: comic_hammer_sheet_31
+    21300064: comic_hammer_sheet_32
+    21300066: comic_hammer_sheet_33
+    21300068: comic_hammer_sheet_34
+    21300070: comic_hammer_sheet_35
+    21300072: comic_hammer_sheet_36
+    21300074: comic_hammer_sheet_37
+    21300076: comic_hammer_sheet_38
+    21300078: comic_hammer_sheet_39
+    21300080: comic_hammer_sheet_40
+    21300082: comic_hammer_sheet_41
+    21300084: comic_hammer_sheet_42
+    21300086: comic_hammer_sheet_43
+    21300088: comic_hammer_sheet_44
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -35,6 +81,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
@@ -54,6 +101,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_1
       rect:
         serializedVersion: 2
@@ -63,6 +111,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_2
       rect:
         serializedVersion: 2
@@ -72,6 +121,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_3
       rect:
         serializedVersion: 2
@@ -81,6 +131,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_4
       rect:
         serializedVersion: 2
@@ -90,6 +141,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_5
       rect:
         serializedVersion: 2
@@ -99,6 +151,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_6
       rect:
         serializedVersion: 2
@@ -108,6 +161,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_7
       rect:
         serializedVersion: 2
@@ -117,6 +171,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_8
       rect:
         serializedVersion: 2
@@ -126,6 +181,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_9
       rect:
         serializedVersion: 2
@@ -135,6 +191,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_10
       rect:
         serializedVersion: 2
@@ -144,6 +201,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_11
       rect:
         serializedVersion: 2
@@ -153,6 +211,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_12
       rect:
         serializedVersion: 2
@@ -162,6 +221,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_13
       rect:
         serializedVersion: 2
@@ -171,6 +231,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_14
       rect:
         serializedVersion: 2
@@ -180,6 +241,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_15
       rect:
         serializedVersion: 2
@@ -189,6 +251,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_16
       rect:
         serializedVersion: 2
@@ -198,6 +261,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_17
       rect:
         serializedVersion: 2
@@ -207,6 +271,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_18
       rect:
         serializedVersion: 2
@@ -216,6 +281,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_19
       rect:
         serializedVersion: 2
@@ -225,6 +291,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_20
       rect:
         serializedVersion: 2
@@ -234,6 +301,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_21
       rect:
         serializedVersion: 2
@@ -243,6 +311,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_22
       rect:
         serializedVersion: 2
@@ -252,6 +321,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_23
       rect:
         serializedVersion: 2
@@ -261,6 +331,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_24
       rect:
         serializedVersion: 2
@@ -270,6 +341,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_25
       rect:
         serializedVersion: 2
@@ -279,6 +351,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_26
       rect:
         serializedVersion: 2
@@ -288,6 +361,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_27
       rect:
         serializedVersion: 2
@@ -297,6 +371,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_28
       rect:
         serializedVersion: 2
@@ -306,6 +381,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_29
       rect:
         serializedVersion: 2
@@ -315,6 +391,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_30
       rect:
         serializedVersion: 2
@@ -324,6 +401,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_31
       rect:
         serializedVersion: 2
@@ -333,6 +411,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_32
       rect:
         serializedVersion: 2
@@ -342,6 +421,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_33
       rect:
         serializedVersion: 2
@@ -351,6 +431,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_34
       rect:
         serializedVersion: 2
@@ -360,6 +441,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_35
       rect:
         serializedVersion: 2
@@ -369,6 +451,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_36
       rect:
         serializedVersion: 2
@@ -378,6 +461,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_37
       rect:
         serializedVersion: 2
@@ -387,6 +471,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_38
       rect:
         serializedVersion: 2
@@ -396,6 +481,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_39
       rect:
         serializedVersion: 2
@@ -405,6 +491,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_40
       rect:
         serializedVersion: 2
@@ -414,6 +501,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_41
       rect:
         serializedVersion: 2
@@ -423,6 +511,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_42
       rect:
         serializedVersion: 2
@@ -432,6 +521,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_43
       rect:
         serializedVersion: 2
@@ -441,6 +531,7 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: comic_hammer_sheet_44
       rect:
         serializedVersion: 2
@@ -450,5 +541,6 @@ TextureImporter:
         height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

@@ -1,6 +1,16 @@
 fileFormatVersion: 2
 guid: 280954c64a819ab4dbbc74f111921127
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: Bomb_Hit_0
+    21300002: Bomb_Hit_1
+    21300004: Bomb_Hit_2
+    21300006: Bomb_Hit_3
+    21300008: Bomb_Hit_4
+    21300010: Bomb_Hit_5
+    21300012: Bomb_Hit_6
+    21300014: Bomb_Hit_7
+    21300016: Bomb_Hit_8
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -35,6 +45,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
@@ -54,6 +65,7 @@ TextureImporter:
         height: 251
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Bomb_Hit_1
       rect:
         serializedVersion: 2
@@ -63,6 +75,7 @@ TextureImporter:
         height: 251
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Bomb_Hit_2
       rect:
         serializedVersion: 2
@@ -72,6 +85,7 @@ TextureImporter:
         height: 251
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Bomb_Hit_3
       rect:
         serializedVersion: 2
@@ -81,6 +95,7 @@ TextureImporter:
         height: 251
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Bomb_Hit_4
       rect:
         serializedVersion: 2
@@ -90,6 +105,7 @@ TextureImporter:
         height: 251
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Bomb_Hit_5
       rect:
         serializedVersion: 2
@@ -99,6 +115,7 @@ TextureImporter:
         height: 251
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Bomb_Hit_6
       rect:
         serializedVersion: 2
@@ -108,6 +125,7 @@ TextureImporter:
         height: 251
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Bomb_Hit_7
       rect:
         serializedVersion: 2
@@ -117,6 +135,7 @@ TextureImporter:
         height: 251
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Bomb_Hit_8
       rect:
         serializedVersion: 2
@@ -126,5 +145,6 @@ TextureImporter:
         height: 251
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

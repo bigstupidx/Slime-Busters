@@ -1,6 +1,27 @@
 fileFormatVersion: 2
 guid: 31d6995f4212ae54691a6b0e5c9e30af
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: Pinata_Idle_0
+    21300002: Pinata_Idle_1
+    21300004: Pinata_Idle_2
+    21300006: Pinata_Idle_3
+    21300008: Pinata_Idle_4
+    21300010: Pinata_Idle_5
+    21300012: Pinata_Idle_6
+    21300014: Pinata_Idle_7
+    21300016: Pinata_Idle_8
+    21300018: Pinata_Idle_9
+    21300020: Pinata_Idle_10
+    21300022: Pinata_Idle_11
+    21300024: Pinata_Idle_12
+    21300026: Pinata_Idle_13
+    21300028: Pinata_Idle_14
+    21300030: Pinata_Idle_15
+    21300032: Pinata_Idle_16
+    21300034: Pinata_Idle_17
+    21300036: Pinata_Idle_18
+    21300038: Pinata_Idle_19
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -35,6 +56,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
@@ -54,6 +76,7 @@ TextureImporter:
         height: 251
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Pinata_Idle_1
       rect:
         serializedVersion: 2
@@ -63,6 +86,7 @@ TextureImporter:
         height: 251
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Pinata_Idle_2
       rect:
         serializedVersion: 2
@@ -72,6 +96,7 @@ TextureImporter:
         height: 251
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Pinata_Idle_3
       rect:
         serializedVersion: 2
@@ -81,6 +106,7 @@ TextureImporter:
         height: 251
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Pinata_Idle_4
       rect:
         serializedVersion: 2
@@ -90,6 +116,7 @@ TextureImporter:
         height: 251
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Pinata_Idle_5
       rect:
         serializedVersion: 2
@@ -99,6 +126,7 @@ TextureImporter:
         height: 251
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Pinata_Idle_6
       rect:
         serializedVersion: 2
@@ -108,6 +136,7 @@ TextureImporter:
         height: 251
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Pinata_Idle_7
       rect:
         serializedVersion: 2
@@ -117,6 +146,7 @@ TextureImporter:
         height: 251
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Pinata_Idle_8
       rect:
         serializedVersion: 2
@@ -126,6 +156,7 @@ TextureImporter:
         height: 251
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Pinata_Idle_9
       rect:
         serializedVersion: 2
@@ -135,6 +166,7 @@ TextureImporter:
         height: 251
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Pinata_Idle_10
       rect:
         serializedVersion: 2
@@ -144,6 +176,7 @@ TextureImporter:
         height: 251
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Pinata_Idle_11
       rect:
         serializedVersion: 2
@@ -153,6 +186,7 @@ TextureImporter:
         height: 251
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Pinata_Idle_12
       rect:
         serializedVersion: 2
@@ -162,6 +196,7 @@ TextureImporter:
         height: 251
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Pinata_Idle_13
       rect:
         serializedVersion: 2
@@ -171,6 +206,7 @@ TextureImporter:
         height: 251
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Pinata_Idle_14
       rect:
         serializedVersion: 2
@@ -180,6 +216,7 @@ TextureImporter:
         height: 251
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Pinata_Idle_15
       rect:
         serializedVersion: 2
@@ -189,6 +226,7 @@ TextureImporter:
         height: 251
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Pinata_Idle_16
       rect:
         serializedVersion: 2
@@ -198,6 +236,7 @@ TextureImporter:
         height: 251
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Pinata_Idle_17
       rect:
         serializedVersion: 2
@@ -207,6 +246,7 @@ TextureImporter:
         height: 251
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Pinata_Idle_18
       rect:
         serializedVersion: 2
@@ -216,6 +256,7 @@ TextureImporter:
         height: 251
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Pinata_Idle_19
       rect:
         serializedVersion: 2
@@ -225,5 +266,6 @@ TextureImporter:
         height: 251
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

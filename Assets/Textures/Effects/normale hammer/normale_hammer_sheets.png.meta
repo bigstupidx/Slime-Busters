@@ -1,6 +1,8 @@
 fileFormatVersion: 2
 guid: 7d4ca6f684a20cc48a10423a65950d9d
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: normale_hammer_sheets
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -35,6 +37,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
@@ -54,6 +57,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_1
       rect:
         serializedVersion: 2
@@ -63,6 +67,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_2
       rect:
         serializedVersion: 2
@@ -72,6 +77,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_3
       rect:
         serializedVersion: 2
@@ -81,6 +87,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_4
       rect:
         serializedVersion: 2
@@ -90,6 +97,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_5
       rect:
         serializedVersion: 2
@@ -99,6 +107,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_6
       rect:
         serializedVersion: 2
@@ -108,6 +117,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_7
       rect:
         serializedVersion: 2
@@ -117,6 +127,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_8
       rect:
         serializedVersion: 2
@@ -126,6 +137,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_9
       rect:
         serializedVersion: 2
@@ -135,6 +147,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_10
       rect:
         serializedVersion: 2
@@ -144,6 +157,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_11
       rect:
         serializedVersion: 2
@@ -153,6 +167,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_12
       rect:
         serializedVersion: 2
@@ -162,6 +177,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_13
       rect:
         serializedVersion: 2
@@ -171,6 +187,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_14
       rect:
         serializedVersion: 2
@@ -180,6 +197,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_15
       rect:
         serializedVersion: 2
@@ -189,6 +207,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_16
       rect:
         serializedVersion: 2
@@ -198,6 +217,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_17
       rect:
         serializedVersion: 2
@@ -207,6 +227,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_18
       rect:
         serializedVersion: 2
@@ -216,6 +237,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_19
       rect:
         serializedVersion: 2
@@ -225,6 +247,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_20
       rect:
         serializedVersion: 2
@@ -234,6 +257,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_21
       rect:
         serializedVersion: 2
@@ -243,6 +267,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_22
       rect:
         serializedVersion: 2
@@ -252,6 +277,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_23
       rect:
         serializedVersion: 2
@@ -261,6 +287,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_24
       rect:
         serializedVersion: 2
@@ -270,6 +297,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_25
       rect:
         serializedVersion: 2
@@ -279,6 +307,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_26
       rect:
         serializedVersion: 2
@@ -288,6 +317,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_27
       rect:
         serializedVersion: 2
@@ -297,6 +327,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_28
       rect:
         serializedVersion: 2
@@ -306,6 +337,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_29
       rect:
         serializedVersion: 2
@@ -315,6 +347,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_30
       rect:
         serializedVersion: 2
@@ -324,6 +357,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_31
       rect:
         serializedVersion: 2
@@ -333,6 +367,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_32
       rect:
         serializedVersion: 2
@@ -342,6 +377,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_33
       rect:
         serializedVersion: 2
@@ -351,6 +387,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_34
       rect:
         serializedVersion: 2
@@ -360,6 +397,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_35
       rect:
         serializedVersion: 2
@@ -369,6 +407,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_36
       rect:
         serializedVersion: 2
@@ -378,6 +417,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_37
       rect:
         serializedVersion: 2
@@ -387,6 +427,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_38
       rect:
         serializedVersion: 2
@@ -396,6 +437,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_39
       rect:
         serializedVersion: 2
@@ -405,6 +447,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_40
       rect:
         serializedVersion: 2
@@ -414,6 +457,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_41
       rect:
         serializedVersion: 2
@@ -423,6 +467,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_42
       rect:
         serializedVersion: 2
@@ -432,6 +477,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_43
       rect:
         serializedVersion: 2
@@ -441,6 +487,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_44
       rect:
         serializedVersion: 2
@@ -450,6 +497,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_45
       rect:
         serializedVersion: 2
@@ -459,6 +507,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_46
       rect:
         serializedVersion: 2
@@ -468,6 +517,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_47
       rect:
         serializedVersion: 2
@@ -477,6 +527,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_48
       rect:
         serializedVersion: 2
@@ -486,6 +537,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_49
       rect:
         serializedVersion: 2
@@ -495,6 +547,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_50
       rect:
         serializedVersion: 2
@@ -504,6 +557,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_51
       rect:
         serializedVersion: 2
@@ -513,6 +567,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_52
       rect:
         serializedVersion: 2
@@ -522,6 +577,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_53
       rect:
         serializedVersion: 2
@@ -531,6 +587,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_54
       rect:
         serializedVersion: 2
@@ -540,6 +597,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_55
       rect:
         serializedVersion: 2
@@ -549,6 +607,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_56
       rect:
         serializedVersion: 2
@@ -558,6 +617,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_57
       rect:
         serializedVersion: 2
@@ -567,6 +627,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_58
       rect:
         serializedVersion: 2
@@ -576,6 +637,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_59
       rect:
         serializedVersion: 2
@@ -585,6 +647,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_60
       rect:
         serializedVersion: 2
@@ -594,6 +657,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_61
       rect:
         serializedVersion: 2
@@ -603,6 +667,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_62
       rect:
         serializedVersion: 2
@@ -612,6 +677,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_63
       rect:
         serializedVersion: 2
@@ -621,6 +687,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_64
       rect:
         serializedVersion: 2
@@ -630,6 +697,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_65
       rect:
         serializedVersion: 2
@@ -639,6 +707,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_66
       rect:
         serializedVersion: 2
@@ -648,6 +717,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_67
       rect:
         serializedVersion: 2
@@ -657,6 +727,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_68
       rect:
         serializedVersion: 2
@@ -666,6 +737,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_69
       rect:
         serializedVersion: 2
@@ -675,6 +747,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_70
       rect:
         serializedVersion: 2
@@ -684,6 +757,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_71
       rect:
         serializedVersion: 2
@@ -693,6 +767,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_72
       rect:
         serializedVersion: 2
@@ -702,6 +777,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_73
       rect:
         serializedVersion: 2
@@ -711,6 +787,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_74
       rect:
         serializedVersion: 2
@@ -720,6 +797,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_75
       rect:
         serializedVersion: 2
@@ -729,6 +807,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_76
       rect:
         serializedVersion: 2
@@ -738,6 +817,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_77
       rect:
         serializedVersion: 2
@@ -747,6 +827,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_78
       rect:
         serializedVersion: 2
@@ -756,6 +837,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_79
       rect:
         serializedVersion: 2
@@ -765,6 +847,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_80
       rect:
         serializedVersion: 2
@@ -774,6 +857,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_81
       rect:
         serializedVersion: 2
@@ -783,6 +867,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_82
       rect:
         serializedVersion: 2
@@ -792,6 +877,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_83
       rect:
         serializedVersion: 2
@@ -801,6 +887,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_84
       rect:
         serializedVersion: 2
@@ -810,6 +897,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_85
       rect:
         serializedVersion: 2
@@ -819,6 +907,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_86
       rect:
         serializedVersion: 2
@@ -828,6 +917,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_87
       rect:
         serializedVersion: 2
@@ -837,6 +927,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_88
       rect:
         serializedVersion: 2
@@ -846,6 +937,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_89
       rect:
         serializedVersion: 2
@@ -855,6 +947,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_90
       rect:
         serializedVersion: 2
@@ -864,6 +957,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_91
       rect:
         serializedVersion: 2
@@ -873,6 +967,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_92
       rect:
         serializedVersion: 2
@@ -882,6 +977,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_93
       rect:
         serializedVersion: 2
@@ -891,6 +987,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_94
       rect:
         serializedVersion: 2
@@ -900,6 +997,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_95
       rect:
         serializedVersion: 2
@@ -909,6 +1007,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_96
       rect:
         serializedVersion: 2
@@ -918,6 +1017,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_97
       rect:
         serializedVersion: 2
@@ -927,6 +1027,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_98
       rect:
         serializedVersion: 2
@@ -936,6 +1037,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_99
       rect:
         serializedVersion: 2
@@ -945,6 +1047,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_100
       rect:
         serializedVersion: 2
@@ -954,6 +1057,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_101
       rect:
         serializedVersion: 2
@@ -963,6 +1067,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_102
       rect:
         serializedVersion: 2
@@ -972,6 +1077,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_103
       rect:
         serializedVersion: 2
@@ -981,6 +1087,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_104
       rect:
         serializedVersion: 2
@@ -990,6 +1097,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_105
       rect:
         serializedVersion: 2
@@ -999,6 +1107,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_106
       rect:
         serializedVersion: 2
@@ -1008,6 +1117,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_107
       rect:
         serializedVersion: 2
@@ -1017,6 +1127,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_108
       rect:
         serializedVersion: 2
@@ -1026,6 +1137,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_109
       rect:
         serializedVersion: 2
@@ -1035,6 +1147,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_110
       rect:
         serializedVersion: 2
@@ -1044,6 +1157,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_111
       rect:
         serializedVersion: 2
@@ -1053,6 +1167,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_112
       rect:
         serializedVersion: 2
@@ -1062,6 +1177,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_113
       rect:
         serializedVersion: 2
@@ -1071,6 +1187,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_114
       rect:
         serializedVersion: 2
@@ -1080,6 +1197,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_115
       rect:
         serializedVersion: 2
@@ -1089,6 +1207,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_116
       rect:
         serializedVersion: 2
@@ -1098,6 +1217,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_117
       rect:
         serializedVersion: 2
@@ -1107,6 +1227,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_118
       rect:
         serializedVersion: 2
@@ -1116,6 +1237,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_119
       rect:
         serializedVersion: 2
@@ -1125,6 +1247,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_120
       rect:
         serializedVersion: 2
@@ -1134,6 +1257,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_121
       rect:
         serializedVersion: 2
@@ -1143,6 +1267,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_122
       rect:
         serializedVersion: 2
@@ -1152,6 +1277,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_123
       rect:
         serializedVersion: 2
@@ -1161,6 +1287,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_124
       rect:
         serializedVersion: 2
@@ -1170,6 +1297,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_125
       rect:
         serializedVersion: 2
@@ -1179,6 +1307,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_126
       rect:
         serializedVersion: 2
@@ -1188,6 +1317,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_127
       rect:
         serializedVersion: 2
@@ -1197,6 +1327,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_128
       rect:
         serializedVersion: 2
@@ -1206,6 +1337,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_129
       rect:
         serializedVersion: 2
@@ -1215,6 +1347,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_130
       rect:
         serializedVersion: 2
@@ -1224,6 +1357,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_131
       rect:
         serializedVersion: 2
@@ -1233,6 +1367,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_132
       rect:
         serializedVersion: 2
@@ -1242,6 +1377,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_133
       rect:
         serializedVersion: 2
@@ -1251,6 +1387,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_134
       rect:
         serializedVersion: 2
@@ -1260,6 +1397,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_135
       rect:
         serializedVersion: 2
@@ -1269,6 +1407,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_136
       rect:
         serializedVersion: 2
@@ -1278,6 +1417,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_137
       rect:
         serializedVersion: 2
@@ -1287,6 +1427,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_138
       rect:
         serializedVersion: 2
@@ -1296,6 +1437,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_139
       rect:
         serializedVersion: 2
@@ -1305,6 +1447,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_140
       rect:
         serializedVersion: 2
@@ -1314,6 +1457,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_141
       rect:
         serializedVersion: 2
@@ -1323,6 +1467,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_142
       rect:
         serializedVersion: 2
@@ -1332,6 +1477,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_143
       rect:
         serializedVersion: 2
@@ -1341,6 +1487,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_144
       rect:
         serializedVersion: 2
@@ -1350,6 +1497,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_145
       rect:
         serializedVersion: 2
@@ -1359,6 +1507,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_146
       rect:
         serializedVersion: 2
@@ -1368,6 +1517,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: normale_hammer_sheets_147
       rect:
         serializedVersion: 2
@@ -1377,5 +1527,6 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

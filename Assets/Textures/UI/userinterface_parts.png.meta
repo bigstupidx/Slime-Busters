@@ -1,6 +1,18 @@
 fileFormatVersion: 2
 guid: 45cdd0f4530aaf849bee7afeebf99597
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: userinterface_parts_0
+    21300002: userinterface_parts_1
+    21300004: userinterface_parts_2
+    21300006: userinterface_parts_3
+    21300008: userinterface_parts_4
+    21300010: userinterface_parts_5
+    21300012: userinterface_parts_6
+    21300014: userinterface_parts_7
+    21300016: userinterface_parts_8
+    21300018: userinterface_parts_9
+    21300020: userinterface_parts_10
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -16,7 +28,7 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: .25
     normalMapFilter: 0
-  isReadable: 1
+  isReadable: 0
   grayScaleToAlpha: 0
   generateCubemap: 0
   seamlessCubemap: 0
@@ -35,6 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
@@ -54,6 +67,7 @@ TextureImporter:
         height: 104
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: userinterface_parts_1
       rect:
         serializedVersion: 2
@@ -63,6 +77,7 @@ TextureImporter:
         height: 107
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: userinterface_parts_2
       rect:
         serializedVersion: 2
@@ -72,6 +87,7 @@ TextureImporter:
         height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: userinterface_parts_3
       rect:
         serializedVersion: 2
@@ -81,6 +97,7 @@ TextureImporter:
         height: 128
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: userinterface_parts_4
       rect:
         serializedVersion: 2
@@ -90,6 +107,7 @@ TextureImporter:
         height: 727
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: userinterface_parts_5
       rect:
         serializedVersion: 2
@@ -99,6 +117,7 @@ TextureImporter:
         height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: userinterface_parts_6
       rect:
         serializedVersion: 2
@@ -108,6 +127,7 @@ TextureImporter:
         height: 548
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: userinterface_parts_7
       rect:
         serializedVersion: 2
@@ -117,6 +137,7 @@ TextureImporter:
         height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: userinterface_parts_8
       rect:
         serializedVersion: 2
@@ -126,6 +147,7 @@ TextureImporter:
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: userinterface_parts_9
       rect:
         serializedVersion: 2
@@ -135,6 +157,7 @@ TextureImporter:
         height: 133
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: userinterface_parts_10
       rect:
         serializedVersion: 2
@@ -144,5 +167,6 @@ TextureImporter:
         height: 130
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

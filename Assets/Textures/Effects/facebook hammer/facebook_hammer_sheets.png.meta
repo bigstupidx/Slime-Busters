@@ -1,6 +1,49 @@
 fileFormatVersion: 2
 guid: 7e7c35a6c38ed814ca8dddab6d5e9982
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: facebook_hammer_sheets_0
+    21300002: facebook_hammer_sheets_1
+    21300004: facebook_hammer_sheets_2
+    21300006: facebook_hammer_sheets_3
+    21300008: facebook_hammer_sheets_4
+    21300010: facebook_hammer_sheets_5
+    21300012: facebook_hammer_sheets_6
+    21300014: facebook_hammer_sheets_7
+    21300016: facebook_hammer_sheets_8
+    21300018: facebook_hammer_sheets_9
+    21300020: facebook_hammer_sheets_10
+    21300022: facebook_hammer_sheets_11
+    21300024: facebook_hammer_sheets_12
+    21300026: facebook_hammer_sheets_13
+    21300028: facebook_hammer_sheets_14
+    21300030: facebook_hammer_sheets_15
+    21300032: facebook_hammer_sheets_16
+    21300034: facebook_hammer_sheets_17
+    21300036: facebook_hammer_sheets_18
+    21300038: facebook_hammer_sheets_19
+    21300040: facebook_hammer_sheets_20
+    21300042: facebook_hammer_sheets_21
+    21300044: facebook_hammer_sheets_22
+    21300046: facebook_hammer_sheets_23
+    21300048: facebook_hammer_sheets_24
+    21300050: facebook_hammer_sheets_25
+    21300052: facebook_hammer_sheets_26
+    21300054: facebook_hammer_sheets_27
+    21300056: facebook_hammer_sheets_28
+    21300058: facebook_hammer_sheets_29
+    21300060: facebook_hammer_sheets_30
+    21300062: facebook_hammer_sheets_31
+    21300064: facebook_hammer_sheets_32
+    21300066: facebook_hammer_sheets_33
+    21300068: facebook_hammer_sheets_34
+    21300070: facebook_hammer_sheets_35
+    21300072: facebook_hammer_sheets_36
+    21300074: facebook_hammer_sheets_37
+    21300076: facebook_hammer_sheets_38
+    21300078: facebook_hammer_sheets_39
+    21300080: facebook_hammer_sheets_40
+    21300082: facebook_hammer_sheets_41
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -35,6 +78,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
@@ -54,6 +98,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_1
       rect:
         serializedVersion: 2
@@ -63,6 +108,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_2
       rect:
         serializedVersion: 2
@@ -72,6 +118,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_3
       rect:
         serializedVersion: 2
@@ -81,6 +128,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_4
       rect:
         serializedVersion: 2
@@ -90,6 +138,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_5
       rect:
         serializedVersion: 2
@@ -99,6 +148,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_6
       rect:
         serializedVersion: 2
@@ -108,6 +158,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_7
       rect:
         serializedVersion: 2
@@ -117,6 +168,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_8
       rect:
         serializedVersion: 2
@@ -126,6 +178,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_9
       rect:
         serializedVersion: 2
@@ -135,6 +188,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_10
       rect:
         serializedVersion: 2
@@ -144,6 +198,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_11
       rect:
         serializedVersion: 2
@@ -153,6 +208,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_12
       rect:
         serializedVersion: 2
@@ -162,6 +218,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_13
       rect:
         serializedVersion: 2
@@ -171,6 +228,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_14
       rect:
         serializedVersion: 2
@@ -180,6 +238,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_15
       rect:
         serializedVersion: 2
@@ -189,6 +248,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_16
       rect:
         serializedVersion: 2
@@ -198,6 +258,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_17
       rect:
         serializedVersion: 2
@@ -207,6 +268,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_18
       rect:
         serializedVersion: 2
@@ -216,6 +278,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_19
       rect:
         serializedVersion: 2
@@ -225,6 +288,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_20
       rect:
         serializedVersion: 2
@@ -234,6 +298,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_21
       rect:
         serializedVersion: 2
@@ -243,6 +308,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_22
       rect:
         serializedVersion: 2
@@ -252,6 +318,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_23
       rect:
         serializedVersion: 2
@@ -261,6 +328,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_24
       rect:
         serializedVersion: 2
@@ -270,6 +338,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_25
       rect:
         serializedVersion: 2
@@ -279,6 +348,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_26
       rect:
         serializedVersion: 2
@@ -288,6 +358,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_27
       rect:
         serializedVersion: 2
@@ -297,6 +368,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_28
       rect:
         serializedVersion: 2
@@ -306,6 +378,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_29
       rect:
         serializedVersion: 2
@@ -315,6 +388,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_30
       rect:
         serializedVersion: 2
@@ -324,6 +398,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_31
       rect:
         serializedVersion: 2
@@ -333,6 +408,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_32
       rect:
         serializedVersion: 2
@@ -342,6 +418,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_33
       rect:
         serializedVersion: 2
@@ -351,6 +428,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_34
       rect:
         serializedVersion: 2
@@ -360,6 +438,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_35
       rect:
         serializedVersion: 2
@@ -369,6 +448,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_36
       rect:
         serializedVersion: 2
@@ -378,6 +458,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_37
       rect:
         serializedVersion: 2
@@ -387,6 +468,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_38
       rect:
         serializedVersion: 2
@@ -396,6 +478,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_39
       rect:
         serializedVersion: 2
@@ -405,6 +488,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_40
       rect:
         serializedVersion: 2
@@ -414,6 +498,7 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: facebook_hammer_sheets_41
       rect:
         serializedVersion: 2
@@ -423,5 +508,6 @@ TextureImporter:
         height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
