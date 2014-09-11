@@ -42,8 +42,8 @@ public class MollControler : MonoBehaviour {
 
 	IEnumerator StateMachineLoop()
 	{
-		while (true) {
-			yield return new WaitForSeconds(15.0f);
+		while (Application.isPlaying) {
+			//yield return new WaitForSeconds(15.0f);
 			switch(controlerState){
 				case ControlerState.RandomSpawning:
 					controlerState = ControlerState.RandomGroupSpawning;
@@ -53,6 +53,7 @@ public class MollControler : MonoBehaviour {
 				break;
 			}
 			Debug.Log("\n[MollControler] switch state: "+controlerState);
+            yield return new WaitForSeconds(15f);
 		}
 		yield return null;
 	}
