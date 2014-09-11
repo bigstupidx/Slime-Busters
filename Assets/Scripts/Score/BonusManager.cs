@@ -8,6 +8,11 @@ namespace Score
         [SerializeField]
         float bonusLength=30f;
 
+        void Start()
+        {
+            Statics.SetDifficulty();
+        }
+
         void Update()
         {
             if (Statics.bonusActivated)
