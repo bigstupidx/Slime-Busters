@@ -106,11 +106,13 @@ public class SlimeMoveBase : MonoBehaviour
         {
             if (slimeInfo.hP > 1)
             {
+                Handheld.Vibrate();
                 amiTor.SetTrigger("GotHit");
                 slimeInfo.hP --;
             }
             else
             {
+                Handheld.Vibrate();
                 killAction();
                 amiTor.SetTrigger("FinalHit");
                 SlimeDead = true;
