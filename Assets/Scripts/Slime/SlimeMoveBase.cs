@@ -15,7 +15,9 @@ public class SlimeMoveBase : MonoBehaviour
 #region Normal vars
 
     private Animator amiTor;
+
     public MollControler ParentScrip;
+
     [SerializeField]
     private bool _GotSlime = false;
     public bool SlimeDead = false;
@@ -25,6 +27,7 @@ public class SlimeMoveBase : MonoBehaviour
     [SerializeField]
     private LayerOrder layer;
     private SlimeType privateSlimeType;
+    [SerializeField]
     private SlimeInfo slimeInfo;
 
     //[SerializeField]
@@ -106,11 +109,13 @@ public class SlimeMoveBase : MonoBehaviour
         {
             if (slimeInfo.hP > 1)
             {
+                Handheld.Vibrate();
                 amiTor.SetTrigger("GotHit");
                 slimeInfo.hP --;
             }
             else
             {
+                Handheld.Vibrate();
                 killAction();
                 amiTor.SetTrigger("FinalHit");
                 SlimeDead = true;

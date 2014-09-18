@@ -15,6 +15,7 @@ public enum SlimeType
     Normal = 7
 }
 
+[System.Serializable]
 public class SlimeInfo {
     public int hP;
     public string LoadName;

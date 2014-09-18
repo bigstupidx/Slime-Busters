@@ -15,12 +15,14 @@ public class HitRayFirere : MonoBehaviour
         {
             for (int i = 0; i < Input.touchCount; ++i)
             {
+                
                 if (Input.GetTouch(i).phase.Equals(TouchPhase.Began))
                 {
                     touch = Input.GetTouch(i);
                     hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(touch.position), Vector2.zero);
-                    if (hit.collider != null)
+                    if (hit.collider != null && i == 0)
                     {
+                        
                         int l = Message.Length;
                         for (int j = 0; j < l; j++)
                         {
