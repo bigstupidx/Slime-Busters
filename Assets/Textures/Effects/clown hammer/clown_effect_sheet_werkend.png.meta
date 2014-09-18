@@ -1,6 +1,40 @@
 fileFormatVersion: 2
 guid: 81252d900593ddb40b54d798422f27ce
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: clown_effect_sheet_werkend_0
+    21300002: clown_effect_sheet_werkend_1
+    21300004: clown_effect_sheet_werkend_2
+    21300006: clown_effect_sheet_werkend_3
+    21300008: clown_effect_sheet_werkend_4
+    21300010: clown_effect_sheet_werkend_5
+    21300012: clown_effect_sheet_werkend_6
+    21300014: clown_effect_sheet_werkend_7
+    21300016: clown_effect_sheet_werkend_8
+    21300018: clown_effect_sheet_werkend_9
+    21300020: clown_effect_sheet_werkend_10
+    21300022: clown_effect_sheet_werkend_11
+    21300024: clown_effect_sheet_werkend_12
+    21300026: clown_effect_sheet_werkend_13
+    21300028: clown_effect_sheet_werkend_14
+    21300030: clown_effect_sheet_werkend_15
+    21300032: clown_effect_sheet_werkend_16
+    21300034: clown_effect_sheet_werkend_17
+    21300036: clown_effect_sheet_werkend_18
+    21300038: clown_effect_sheet_werkend_19
+    21300040: clown_effect_sheet_werkend_20
+    21300042: clown_effect_sheet_werkend_21
+    21300044: clown_effect_sheet_werkend_22
+    21300046: clown_effect_sheet_werkend_23
+    21300048: clown_effect_sheet_werkend_24
+    21300050: clown_effect_sheet_werkend_25
+    21300052: clown_effect_sheet_werkend_26
+    21300054: clown_effect_sheet_werkend_27
+    21300056: clown_effect_sheet_werkend_28
+    21300058: clown_effect_sheet_werkend_29
+    21300060: clown_effect_sheet_werkend_30
+    21300062: clown_effect_sheet_werkend_31
+    21300064: clown_effect_sheet_werkend_32
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -35,6 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
@@ -54,6 +89,7 @@ TextureImporter:
         height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clown_effect_sheet_werkend_1
       rect:
         serializedVersion: 2
@@ -63,6 +99,7 @@ TextureImporter:
         height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clown_effect_sheet_werkend_2
       rect:
         serializedVersion: 2
@@ -72,6 +109,7 @@ TextureImporter:
         height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clown_effect_sheet_werkend_3
       rect:
         serializedVersion: 2
@@ -81,6 +119,7 @@ TextureImporter:
         height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clown_effect_sheet_werkend_4
       rect:
         serializedVersion: 2
@@ -90,6 +129,7 @@ TextureImporter:
         height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clown_effect_sheet_werkend_5
       rect:
         serializedVersion: 2
@@ -99,6 +139,7 @@ TextureImporter:
         height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clown_effect_sheet_werkend_6
       rect:
         serializedVersion: 2
@@ -108,6 +149,7 @@ TextureImporter:
         height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clown_effect_sheet_werkend_7
       rect:
         serializedVersion: 2
@@ -117,6 +159,7 @@ TextureImporter:
         height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clown_effect_sheet_werkend_8
       rect:
         serializedVersion: 2
@@ -126,6 +169,7 @@ TextureImporter:
         height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clown_effect_sheet_werkend_9
       rect:
         serializedVersion: 2
@@ -135,6 +179,7 @@ TextureImporter:
         height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clown_effect_sheet_werkend_10
       rect:
         serializedVersion: 2
@@ -144,6 +189,7 @@ TextureImporter:
         height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clown_effect_sheet_werkend_11
       rect:
         serializedVersion: 2
@@ -153,6 +199,7 @@ TextureImporter:
         height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clown_effect_sheet_werkend_12
       rect:
         serializedVersion: 2
@@ -162,6 +209,7 @@ TextureImporter:
         height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clown_effect_sheet_werkend_13
       rect:
         serializedVersion: 2
@@ -171,6 +219,7 @@ TextureImporter:
         height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clown_effect_sheet_werkend_14
       rect:
         serializedVersion: 2
@@ -180,6 +229,7 @@ TextureImporter:
         height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clown_effect_sheet_werkend_15
       rect:
         serializedVersion: 2
@@ -189,6 +239,7 @@ TextureImporter:
         height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clown_effect_sheet_werkend_16
       rect:
         serializedVersion: 2
@@ -198,6 +249,7 @@ TextureImporter:
         height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clown_effect_sheet_werkend_17
       rect:
         serializedVersion: 2
@@ -207,6 +259,7 @@ TextureImporter:
         height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clown_effect_sheet_werkend_18
       rect:
         serializedVersion: 2
@@ -216,6 +269,7 @@ TextureImporter:
         height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clown_effect_sheet_werkend_19
       rect:
         serializedVersion: 2
@@ -225,6 +279,7 @@ TextureImporter:
         height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clown_effect_sheet_werkend_20
       rect:
         serializedVersion: 2
@@ -234,6 +289,7 @@ TextureImporter:
         height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clown_effect_sheet_werkend_21
       rect:
         serializedVersion: 2
@@ -243,6 +299,7 @@ TextureImporter:
         height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clown_effect_sheet_werkend_22
       rect:
         serializedVersion: 2
@@ -252,6 +309,7 @@ TextureImporter:
         height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clown_effect_sheet_werkend_23
       rect:
         serializedVersion: 2
@@ -261,6 +319,7 @@ TextureImporter:
         height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clown_effect_sheet_werkend_24
       rect:
         serializedVersion: 2
@@ -270,6 +329,7 @@ TextureImporter:
         height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clown_effect_sheet_werkend_25
       rect:
         serializedVersion: 2
@@ -279,6 +339,7 @@ TextureImporter:
         height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clown_effect_sheet_werkend_26
       rect:
         serializedVersion: 2
@@ -288,6 +349,7 @@ TextureImporter:
         height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clown_effect_sheet_werkend_27
       rect:
         serializedVersion: 2
@@ -297,6 +359,7 @@ TextureImporter:
         height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clown_effect_sheet_werkend_28
       rect:
         serializedVersion: 2
@@ -306,6 +369,7 @@ TextureImporter:
         height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clown_effect_sheet_werkend_29
       rect:
         serializedVersion: 2
@@ -315,6 +379,7 @@ TextureImporter:
         height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clown_effect_sheet_werkend_30
       rect:
         serializedVersion: 2
@@ -324,6 +389,7 @@ TextureImporter:
         height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clown_effect_sheet_werkend_31
       rect:
         serializedVersion: 2
@@ -333,6 +399,7 @@ TextureImporter:
         height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clown_effect_sheet_werkend_32
       rect:
         serializedVersion: 2
@@ -342,5 +409,6 @@ TextureImporter:
         height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

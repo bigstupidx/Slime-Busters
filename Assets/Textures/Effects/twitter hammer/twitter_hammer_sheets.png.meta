@@ -1,6 +1,51 @@
 fileFormatVersion: 2
 guid: 8d8e473072aa7f2448eaf506b7509e1e
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: twitter_hammer_sheets_0
+    21300002: twitter_hammer_sheets_1
+    21300004: twitter_hammer_sheets_2
+    21300006: twitter_hammer_sheets_3
+    21300008: twitter_hammer_sheets_4
+    21300010: twitter_hammer_sheets_5
+    21300012: twitter_hammer_sheets_6
+    21300014: twitter_hammer_sheets_7
+    21300016: twitter_hammer_sheets_8
+    21300018: twitter_hammer_sheets_9
+    21300020: twitter_hammer_sheets_10
+    21300022: twitter_hammer_sheets_11
+    21300024: twitter_hammer_sheets_12
+    21300026: twitter_hammer_sheets_13
+    21300028: twitter_hammer_sheets_14
+    21300030: twitter_hammer_sheets_15
+    21300032: twitter_hammer_sheets_16
+    21300034: twitter_hammer_sheets_17
+    21300036: twitter_hammer_sheets_18
+    21300038: twitter_hammer_sheets_19
+    21300040: twitter_hammer_sheets_20
+    21300042: twitter_hammer_sheets_21
+    21300044: twitter_hammer_sheets_22
+    21300046: twitter_hammer_sheets_23
+    21300048: twitter_hammer_sheets_24
+    21300050: twitter_hammer_sheets_25
+    21300052: twitter_hammer_sheets_26
+    21300054: twitter_hammer_sheets_27
+    21300056: twitter_hammer_sheets_28
+    21300058: twitter_hammer_sheets_29
+    21300060: twitter_hammer_sheets_30
+    21300062: twitter_hammer_sheets_31
+    21300064: twitter_hammer_sheets_32
+    21300066: twitter_hammer_sheets_33
+    21300068: twitter_hammer_sheets_34
+    21300070: twitter_hammer_sheets_35
+    21300072: twitter_hammer_sheets_36
+    21300074: twitter_hammer_sheets_37
+    21300076: twitter_hammer_sheets_38
+    21300078: twitter_hammer_sheets_39
+    21300080: twitter_hammer_sheets_40
+    21300082: twitter_hammer_sheets_41
+    21300084: twitter_hammer_sheets_42
+    21300086: twitter_hammer_sheets_43
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -35,6 +80,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
@@ -54,6 +100,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_1
       rect:
         serializedVersion: 2
@@ -63,6 +110,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_2
       rect:
         serializedVersion: 2
@@ -72,6 +120,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_3
       rect:
         serializedVersion: 2
@@ -81,6 +130,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_4
       rect:
         serializedVersion: 2
@@ -90,6 +140,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_5
       rect:
         serializedVersion: 2
@@ -99,6 +150,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_6
       rect:
         serializedVersion: 2
@@ -108,6 +160,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_7
       rect:
         serializedVersion: 2
@@ -117,6 +170,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_8
       rect:
         serializedVersion: 2
@@ -126,6 +180,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_9
       rect:
         serializedVersion: 2
@@ -135,6 +190,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_10
       rect:
         serializedVersion: 2
@@ -144,6 +200,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_11
       rect:
         serializedVersion: 2
@@ -153,6 +210,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_12
       rect:
         serializedVersion: 2
@@ -162,6 +220,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_13
       rect:
         serializedVersion: 2
@@ -171,6 +230,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_14
       rect:
         serializedVersion: 2
@@ -180,6 +240,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_15
       rect:
         serializedVersion: 2
@@ -189,6 +250,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_16
       rect:
         serializedVersion: 2
@@ -198,6 +260,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_17
       rect:
         serializedVersion: 2
@@ -207,6 +270,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_18
       rect:
         serializedVersion: 2
@@ -216,6 +280,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_19
       rect:
         serializedVersion: 2
@@ -225,6 +290,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_20
       rect:
         serializedVersion: 2
@@ -234,6 +300,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_21
       rect:
         serializedVersion: 2
@@ -243,6 +310,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_22
       rect:
         serializedVersion: 2
@@ -252,6 +320,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_23
       rect:
         serializedVersion: 2
@@ -261,6 +330,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_24
       rect:
         serializedVersion: 2
@@ -270,6 +340,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_25
       rect:
         serializedVersion: 2
@@ -279,6 +350,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_26
       rect:
         serializedVersion: 2
@@ -288,6 +360,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_27
       rect:
         serializedVersion: 2
@@ -297,6 +370,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_28
       rect:
         serializedVersion: 2
@@ -306,6 +380,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_29
       rect:
         serializedVersion: 2
@@ -315,6 +390,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_30
       rect:
         serializedVersion: 2
@@ -324,6 +400,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_31
       rect:
         serializedVersion: 2
@@ -333,6 +410,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_32
       rect:
         serializedVersion: 2
@@ -342,6 +420,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_33
       rect:
         serializedVersion: 2
@@ -351,6 +430,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_34
       rect:
         serializedVersion: 2
@@ -360,6 +440,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_35
       rect:
         serializedVersion: 2
@@ -369,6 +450,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_36
       rect:
         serializedVersion: 2
@@ -378,6 +460,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_37
       rect:
         serializedVersion: 2
@@ -387,6 +470,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_38
       rect:
         serializedVersion: 2
@@ -396,6 +480,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_39
       rect:
         serializedVersion: 2
@@ -405,6 +490,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_40
       rect:
         serializedVersion: 2
@@ -414,6 +500,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_41
       rect:
         serializedVersion: 2
@@ -423,6 +510,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_42
       rect:
         serializedVersion: 2
@@ -432,6 +520,7 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: twitter_hammer_sheets_43
       rect:
         serializedVersion: 2
@@ -441,5 +530,6 @@ TextureImporter:
         height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

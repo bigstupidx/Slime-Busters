@@ -22,9 +22,8 @@ public class InGameGui : MonoBehaviour {
             Time.timeScale = 0;
 			PauseMenu.SetActive(true);
         }else{
-			Time.timeScale = 1;
 			StartCoroutine("SetMenuUnactive");
-            
+            Time.timeScale = 1;
         }
 	}
 
@@ -36,6 +35,7 @@ public class InGameGui : MonoBehaviour {
 	
 	IEnumerator SetMenuUnactive() {
 		yield return new WaitForSeconds(0.5f);
+		Debug.Log ("setfalse");
 		PauseMenu.SetActive (false);
 	}
 }

@@ -16,6 +16,8 @@ public class GameDataController
 	public static void setSaveInt(SaveInt saveInt, int value){
         Debug.Log("[save]" + saveInt + " " + value);
 		PlayerPrefs.SetInt (saveInt.ToString(),value);
+
+        PlayerPrefs.Save();
 	}
 }
 
