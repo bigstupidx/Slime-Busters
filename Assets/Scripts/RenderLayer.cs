@@ -8,5 +8,7 @@ public class RenderLayer : MonoBehaviour {
 	private string layer;
 	void Start () {
 		renderer.sortingLayerName = layer;
+        if (Application.isPlaying)
+            Destroy(this);
 	}
 }

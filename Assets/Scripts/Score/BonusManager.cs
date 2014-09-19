@@ -4,9 +4,8 @@ namespace Score
 {
     public class BonusManager : MonoBehaviour
     {
-        float bonusTimer;
-        [SerializeField]
-        float bonusLength=30f;
+        public float bonusTimer;
+        public float bonusLength=30f;
 
         void Start()
         {
@@ -30,6 +29,8 @@ namespace Score
                     return;
                 }
                 bonusTimer -= Time.deltaTime;
+                if (bonusTimer < 0f)
+                    bonusTimer = 0;
             }
         }
     }

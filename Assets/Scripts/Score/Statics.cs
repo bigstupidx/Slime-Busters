@@ -41,6 +41,7 @@ namespace Score
 
         public static void AddScore(int amount)
         {
+            Debug.Log("\n[ScoreStatics] Before adding is " + Score);
             if (!Bonus)
                 Score += Mathf.FloorToInt(amount * (baseMulti / 10f));
             else
@@ -48,9 +49,11 @@ namespace Score
 
             if (Score > HighScore)
                 HighScore = Score;
+
+            Debug.Log("\n[ScoreStatics] New Score is " + Score);
         }
 
-        public static void xpbonus()
+        public static void XpBonus()
         {
             if(!Bonus)
                  bonusActivated = true;
