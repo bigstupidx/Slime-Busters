@@ -6,6 +6,7 @@ using Score;
 [CustomEditor(typeof(BonusManager))]
 public class scoreEditor : Editor {
 
+    private int scoreToAdd;
     public override void OnInspectorGUI()
     {
         BonusManager manager = (BonusManager)target;
@@ -16,8 +17,13 @@ public class scoreEditor : Editor {
             Statics.XpBonus();
 
         EditorGUILayout.Space();
+        if (GUILayout.Button("ResetScore"))
+        {Statics.Score = 0; Statics.HighScore = 0;}
         EditorGUILayout.LabelField("Score: " + Statics.Score.ToString());
         EditorGUILayout.LabelField("Highscore: " + Statics.HighScore.ToString());
+        if (GUILayout.Button("AddScore"))
+            Statics.AddScore(scoreToAdd);
+        scoreToAdd = EditorGUILayout.IntField("ScoreTo Add", scoreToAdd);
             
         EditorGUILayout.Space();
         EditorGUILayout.LabelField("ScoreMulti: " + Statics.baseMulti.ToString());
@@ -32,6 +38,6 @@ public class scoreEditor : Editor {
         // Get a rect for the progress bar using the same margins as a textfield:
         Rect rect = GUILayoutUtility.GetRect(18, 18, "TextField");
         EditorGUI.ProgressBar(rect, value, label);
-
+        EditorGUILayout.Space();
     }
 }
