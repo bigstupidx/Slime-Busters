@@ -12,7 +12,8 @@ public class scoreEditor : Editor {
         BonusManager manager = (BonusManager)target;
 
         manager.bonusLength = EditorGUILayout.FloatField("Bonus Lenght", manager.bonusLength);
-        ProgressBar(manager.bonusTimer / manager.bonusLength, "BonusTime: " + manager.bonusTimer);
+        ProgressBar(manager.bonusTimer / manager.bonusLength, "BonusTime: " + TimeCover.tostring(manager.bonusTimer));
+        
         if (GUILayout.Button("StartBonus"))
             Statics.XpBonus();
 
