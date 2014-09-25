@@ -14,6 +14,8 @@ public class Shop : MonoBehaviour {
     private GameObject hammerButtonContainer;
     //private UIPanel hammerPannel;
 
+	[SerializeField]
+	private float hammerScale = 0.2777f;
     private int currentHammerId = 0;
     private int currentHammerPreviewId = 0;
     private int p_money = 3294;
@@ -26,7 +28,7 @@ public class Shop : MonoBehaviour {
         {
             AddHammerButton(270 - (95 * i), hammers.hammers[i].name,i);
         }
-        hammerColtrol = new HammerControler(this.transform, hammers.hammers[0].controler);
+		hammerColtrol = new HammerControler(this.transform, hammers.hammers[0].controler,hammerScale);
 		//set active hammer
         Debug.Log("Start");
         HammerToggleClicked(GameDataController.getSaveInt(SaveInt.currentHammer));
