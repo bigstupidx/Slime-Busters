@@ -3,7 +3,8 @@ using System.Collections;
 
 public enum ControlerState{
 	RandomSpawning,
-	RandomGroupSpawning
+	RandomGroupSpawning,
+	Boss
 }
 
 public class MollControler : MonoBehaviour {
@@ -44,13 +45,13 @@ public class MollControler : MonoBehaviour {
 	{
 		while (Application.isPlaying) {
 			//yield return new WaitForSeconds(15.0f);
-			switch(controlerState){
-				case ControlerState.RandomSpawning:
-					controlerState = ControlerState.RandomGroupSpawning;
-				break;
-				case ControlerState.RandomGroupSpawning:
-					controlerState = ControlerState.RandomSpawning;
-				break;
+			int rand = Random.Range(0,20);
+			if(rand < 9){
+				controlerState = ControlerState.RandomSpawning;
+			}else if(rand < 18){
+				controlerState = ControlerState.RandomGroupSpawning;
+			}else{
+				controlerState = ControlerState.Boss;
 			}
 			Debug.Log("\n[MollControler] switch state: "+controlerState);
             yield return new WaitForSeconds(15f);
@@ -73,7 +74,7 @@ public class MollControler : MonoBehaviour {
 	                {
 	                    //set type of new slime
 	                    if (Random.value < 0.4f)
-	                        Slimes[i].SetSlimeType((SlimeType)(Mathf.FloorToInt(Random.Range(0, 8))));
+	                        Slimes[i].SetSlimeType((SlimeType)(Mathf.FloorToInt(Random.Range(0, 7))));
 	                    else
 	                        Slimes[i].SetSlimeType(SlimeType.Normal);
 	                    currentActive++;
@@ -81,10 +82,10 @@ public class MollControler : MonoBehaviour {
 	                }
 	            }
 			}
-			else
+			else if(controlerState == ControlerState.RandomGroupSpawning)
 			{
 				float waitTime = removeAllActiveSlimes();
-				Debug.Log("\n[MollControler] waittime: "+waitTime);
+				//Debug.Log("\n[MollControler] waittime: "+waitTime);
 				yield return new WaitForSeconds(waitTime);
 				int spawnGroup = Random.Range(0, 2);
 				// Debug.Log(i+" : "+val);
@@ -96,19 +97,29 @@ public class MollControler : MonoBehaviour {
 					Slimes[2].SetSlimeType(SlimeType.Normal);
 					Slimes[5].SetSlimeType(SlimeType.Normal);
 					currentActive+=4;
+					yield return new WaitForSeconds(3f);
 				}
 				else if(spawnGroup == 1)
 				{
-					Slimes[2].SetSlimeType(SlimeType.Normal);
-					Slimes[3].SetSlimeType(SlimeType.Normal);
-					Slimes[4].SetSlimeType(SlimeType.Normal);
-					Slimes[6].SetSlimeType(SlimeType.Normal);
+					Slimes[2].SetSlimeType(SlimeType.Helmet);
+					Slimes[3].SetSlimeType(SlimeType.Helmet);
+					Slimes[4].SetSlimeType(SlimeType.Helmet);
+					Slimes[6].SetSlimeType(SlimeType.Helmet);
+					yield return new WaitForSeconds(5f);
 					currentActive+=4;
 				}
+			}
+			else if(controlerState == ControlerState.Boss){
+				float waitTime = removeAllActiveSlimes();
+				yield return new WaitForSeconds(waitTime);
+
+				Slimes[2].SetSlimeType(SlimeType.Boss);
+				currentActive+=4;
 			}
 			yield return new WaitForSeconds(0.2f);
             yield return new WaitForSeconds(1f);
         }
+
     }
 
 	IEnumerator PowerUpCheckLoop()

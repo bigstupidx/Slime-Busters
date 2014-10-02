@@ -6,13 +6,13 @@ using System.Text;
 public enum SlimeType
 {
     Bomb = 0,
-    Boss = 1,
+	Normal = 1,
     Heart = 2,
     Helmet = 3,
     Ice = 4,
     Pinata = 5,
     Time = 6,
-    Normal = 7
+	Boss = 7
 }
 
 [System.Serializable]
@@ -55,7 +55,7 @@ public class SlimeSettings{
                 frameCount = 24;
                 break;
             case SlimeType.Helmet:
-                hP = 3;
+                hP = 2;
                 loadName = "Helmet";
                 frameCount = 24;
                 molePopupTime = 4f;
