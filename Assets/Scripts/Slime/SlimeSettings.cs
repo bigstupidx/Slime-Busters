@@ -21,6 +21,7 @@ public class SlimeInfo {
     public string LoadName;
     public int frameCount;
     public float molePopupTime;
+
     public SlimeInfo(int _hP, string _loadName, int _frameCount, float _molePopupTime)
     {
         hP = _hP;
@@ -37,6 +38,7 @@ public class SlimeSettings{
         string loadName;
         int frameCount;
         float molePopupTime = 2f;
+
         switch (type)
         {
             case SlimeType.Bomb:
