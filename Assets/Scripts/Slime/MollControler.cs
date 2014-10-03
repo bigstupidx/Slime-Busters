@@ -9,23 +9,21 @@ public enum ControlerState{
 
 public class MollControler : MonoBehaviour {
 
-    [SerializeField]
-    private SlimeMoveBase[] Slimes;
-
+    public Sprite initSprite;
+    public SlimeList _slimesList;
     public int maxActivesSlimes;
+
     [SerializeField]
     public int currentActive;
 
     private int startinlvl;
 	private ControlerState controlerState = ControlerState.RandomSpawning;
+    private SlimeMoveBase[] Slimes;
 
-    #region PowerUps
-
+#region PowerUps
     bool[] PowerupEnabled = new bool[4];//[0]Time,[1]Ice,[2]Soldier,[3]Nuke
-
     float[] PowerUpTimeLeft = new float[3];//[0]Time,[1]Ice,[2]Soldier
-
-    #endregion
+#endregion
 
     void Start()
     {
@@ -97,7 +95,7 @@ public class MollControler : MonoBehaviour {
 					Slimes[2].SetSlimeType(SlimeType.Normal);
 					Slimes[5].SetSlimeType(SlimeType.Normal);
 					currentActive+=4;
-					yield return new WaitForSeconds(3f);
+					yield return new WaitForSeconds(2f);
 				}
 				else if(spawnGroup == 1)
 				{
@@ -105,7 +103,7 @@ public class MollControler : MonoBehaviour {
 					Slimes[3].SetSlimeType(SlimeType.Helmet);
 					Slimes[4].SetSlimeType(SlimeType.Helmet);
 					Slimes[6].SetSlimeType(SlimeType.Helmet);
-					yield return new WaitForSeconds(5f);
+					yield return new WaitForSeconds(3f);
 					currentActive+=4;
 				}
 			}

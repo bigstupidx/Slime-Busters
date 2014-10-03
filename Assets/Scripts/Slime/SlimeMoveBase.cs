@@ -5,37 +5,23 @@ using System.Collections;
 [RequireComponent(typeof(CircleCollider2D))]
 public class SlimeMoveBase : MonoBehaviour
 {
-    public enum LayerOrder
-    {
-        Front = 0,
-        middle = 1,
-        back = 2
-    }
-
 #region Normal vars
-
-    private Animator amiTor;
-
     public MollControler ParentScrip;
-
-    [SerializeField]
-    private bool _GotSlime = false;
     public bool SlimeDead = false;
 
-    private Vector3 OffSet;
-
     [SerializeField]
-    private LayerOrder layer;
-    private SlimeType privateSlimeType;
-    [SerializeField]
+    private int orderLayer;
+    private bool _GotSlime = false;
     private SlimeInfo slimeInfo;
-
-    //[SerializeField]
-    //private int HP;
-
+    private int hp;
+    private SlimeType slimeType_;
+    private Vector3 OffSet;
     private float privateWaitTime = 0f; //used so animations dont cross paths
     private float molePopupTime; // when zero the slime dies
+    private Animator animator;
+#endregion
 
+#region Getter/Setter
     public bool GotSlime
     {
         get
@@ -47,7 +33,7 @@ public class SlimeMoveBase : MonoBehaviour
     {
         get
         {
-            return privateSlimeType;
+            return slimeType_;
         }
     }
 	public float waitTime
@@ -60,66 +46,49 @@ public class SlimeMoveBase : MonoBehaviour
 #endregion
 
 #region Powerup var's
-
     public bool Frozen;
     public bool time;
-
 #endregion
 
     public void SetSlimeType(SlimeType type)
     {
-        string loadDir = "Slimes/";
-        string loadPath;
-        //int numbOfFrames = 1; // frames in death animation;
-
-        slimeInfo = SlimeSettings.GetSlimeInfo(type);
+        slimeType_ = type;
+        slimeInfo = ParentScrip._slimesList.GetSlimeInfo(type);
+        hp = slimeInfo.hP;
         molePopupTime = slimeInfo.molePopupTime;
-        loadPath = loadDir + slimeInfo.LoadName;
+
         _GotSlime = true;
         SlimeDead = false;
 
         privateWaitTime = (1f / GameSettings.animationFPS * slimeInfo.frameCount);
-
-        GameObject newSlime = Instantiate(Resources.Load(loadPath)) as GameObject;
-        newSlime.name = "Slime";
+        GameObject newSlime = new GameObject("slime");
+        SpriteRenderer newSprite = newSlime.AddComponent<SpriteRenderer>();
+        newSprite.sprite = ParentScrip.initSprite;
+        newSprite.sortingOrder = orderLayer;
+        animator = newSlime.AddComponent<Animator>();
+        animator.runtimeAnimatorController = slimeInfo.runtimeAnimatorController;
         newSlime.transform.parent = transform;
         newSlime.transform.localPosition = OffSet;
-
-        SpriteRenderer spr = newSlime.GetComponent<SpriteRenderer>();
-        switch (layer){
-            case LayerOrder.Front:
-                spr.sortingOrder = 4;
-                break;
-            case LayerOrder.middle:
-                spr.sortingOrder = 2;
-                break;
-            case LayerOrder.back:
-                spr.sortingOrder = 0;
-                break;
-        }
-        
-        amiTor = newSlime.GetComponent<Animator>();
-
     }
 
     //activated by hitRayFirere
     public void hit()
     {
-        if (_GotSlime && amiTor != null)
+        if (_GotSlime && animator != null)
         {
-            if (slimeInfo.hP > 1)
+            if (hp > 1)
             {
                 Handheld.Vibrate();
-                amiTor.SetTrigger("GotHit");
+                animator.SetTrigger("GotHit");
 				Debug.Log("GotHit");
-                slimeInfo.hP --;
+                hp --;
             }
             else
             {
                 Handheld.Vibrate();
                 killAction();
 				Debug.Log("FinalHit");
-                amiTor.SetTrigger("FinalHit");
+                animator.SetTrigger("FinalHit");
                 SlimeDead = true;
                 //addScore;
             }
@@ -130,7 +99,7 @@ public class SlimeMoveBase : MonoBehaviour
         }
     }
 
-    void Update()
+    private void Update()
     {
         if (SlimeDead&&_GotSlime)
         {
@@ -158,27 +127,31 @@ public class SlimeMoveBase : MonoBehaviour
         }
     }
 
-    void killAction()
+    private void killAction()
     {
-        if (amiTor != null)
+        if (animator != null)
         {
-            amiTor.SetTrigger("FinalHit");
-            Destroy(amiTor.gameObject, privateWaitTime);
+            animator.SetTrigger("FinalHit");
+            Destroy(animator.gameObject, privateWaitTime);
+            if (slimeInfo.particleEffect != null)
+            {
+                GameObject.Instantiate(slimeInfo.particleEffect, transform.position, Quaternion.identity);
+            }
         }
         SlimeDead = true;
-        slimeInfo.hP = 0;
+        hp = 0;
         ParentScrip.currentActive--;
     }
 
 	public void DeSpawnAction()
 	{
-		if (amiTor != null)
+        if (animator != null)
 		{
-			amiTor.SetTrigger("DeSpawn");
-			Destroy(amiTor.gameObject, privateWaitTime);
+            animator.SetTrigger("DeSpawn");
+            Destroy(animator.gameObject, privateWaitTime);
 		}
 		SlimeDead = true;
-		slimeInfo.hP = 0;
+		hp = 0;
 		ParentScrip.currentActive--;
 	}
 }

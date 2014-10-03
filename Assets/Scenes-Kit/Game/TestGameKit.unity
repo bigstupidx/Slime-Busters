@@ -103,14 +103,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ParentScrip: {fileID: 0}
-  _GotSlime: 0
   SlimeDead: 0
+  slimeList: {fileID: 0}
+  _GotSlime: 0
   layer: 2
-  slimeInfo:
-    hP: 0
-    LoadName: 
-    frameCount: 0
-    molePopupTime: 0
   Frozen: 0
   time: 0
 --- !u!58 &56244044
@@ -227,6 +223,7 @@ MonoBehaviour:
   Slimes: []
   maxActivesSlimes: 3
   currentActive: 0
+  _slimesList: {fileID: 11400000, guid: 3d1c67a46ae718b4f9113bf0bd7e4222, type: 2}
 --- !u!1 &618331617
 GameObject:
   m_ObjectHideFlags: 0
@@ -256,14 +253,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ParentScrip: {fileID: 0}
-  _GotSlime: 0
   SlimeDead: 0
+  slimeList: {fileID: 0}
+  _GotSlime: 0
   layer: 0
-  slimeInfo:
-    hP: 0
-    LoadName: 
-    frameCount: 0
-    molePopupTime: 0
   Frozen: 0
   time: 0
 --- !u!58 &618331619
@@ -318,14 +311,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ParentScrip: {fileID: 0}
-  _GotSlime: 0
   SlimeDead: 0
+  slimeList: {fileID: 0}
+  _GotSlime: 0
   layer: 0
-  slimeInfo:
-    hP: 0
-    LoadName: 
-    frameCount: 0
-    molePopupTime: 0
   Frozen: 0
   time: 0
 --- !u!58 &834753790
@@ -728,14 +717,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ParentScrip: {fileID: 0}
-  _GotSlime: 0
   SlimeDead: 0
+  slimeList: {fileID: 0}
+  _GotSlime: 0
   layer: 1
-  slimeInfo:
-    hP: 0
-    LoadName: 
-    frameCount: 0
-    molePopupTime: 0
   Frozen: 0
   time: 0
 --- !u!58 &1467211825
@@ -948,14 +933,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ParentScrip: {fileID: 0}
-  _GotSlime: 0
   SlimeDead: 0
+  slimeList: {fileID: 0}
+  _GotSlime: 0
   layer: 1
-  slimeInfo:
-    hP: 0
-    LoadName: 
-    frameCount: 0
-    molePopupTime: 0
   Frozen: 0
   time: 0
 --- !u!58 &1721765519
@@ -1010,14 +991,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ParentScrip: {fileID: 0}
-  _GotSlime: 0
   SlimeDead: 0
+  slimeList: {fileID: 0}
+  _GotSlime: 0
   layer: 2
-  slimeInfo:
-    hP: 0
-    LoadName: 
-    frameCount: 0
-    molePopupTime: 0
   Frozen: 0
   time: 0
 --- !u!58 &1830388838
@@ -1072,14 +1049,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ParentScrip: {fileID: 0}
-  _GotSlime: 0
   SlimeDead: 0
+  slimeList: {fileID: 0}
+  _GotSlime: 0
   layer: 1
-  slimeInfo:
-    hP: 0
-    LoadName: 
-    frameCount: 0
-    molePopupTime: 0
   Frozen: 0
   time: 0
 --- !u!58 &1986556931

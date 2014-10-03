@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: SlimeList
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1c80ee42dcdade48918e081f15313ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slimes:
+  - hP: 1
+    slimeType: 0
+    frameCount: 24
+    molePopupTime: 2
+    runtimeAnimatorController: {fileID: 22100000, guid: 32bec6ede393377418ae3649fcb3adbc,
+      type: 2}
+  - hP: 1
+    slimeType: 1
+    frameCount: 24
+    molePopupTime: 2
+    runtimeAnimatorController: {fileID: 22100000, guid: 51db5e451a3c1344881c9f8dfde9730d,
+      type: 2}
+  - hP: 1
+    slimeType: 2
+    frameCount: 24
+    molePopupTime: 2
+    runtimeAnimatorController: {fileID: 22100000, guid: ecd865e34599743489906f65ba102f84,
+      type: 2}
+  - hP: 2
+    slimeType: 3
+    frameCount: 24
+    molePopupTime: 2
+    runtimeAnimatorController: {fileID: 22100000, guid: 647e1ff1f29a9ef41bd74ad9473d5a17,
+      type: 2}
+  - hP: 1
+    slimeType: 4
+    frameCount: 24
+    molePopupTime: 2
+    runtimeAnimatorController: {fileID: 22100000, guid: 83c077327b6e8f24d9228a67b08dcd72,
+      type: 2}
+  - hP: 1
+    slimeType: 5
+    frameCount: 24
+    molePopupTime: 2
+    runtimeAnimatorController: {fileID: 22100000, guid: 8e9cdcf4ba4d4304680c2f49e334d6fb,
+      type: 2}
+  - hP: 1
+    slimeType: 6
+    frameCount: 24
+    molePopupTime: 2
+    runtimeAnimatorController: {fileID: 22100000, guid: 3d7f3ec2cbae4294dab76ce467a6a945,
+      type: 2}
+  - hP: 1
+    slimeType: 7
+    frameCount: 24
+    molePopupTime: 2
+    runtimeAnimatorController: {fileID: 22100000, guid: 15adbb2d11b52ce4598da56eef8e406c,
+      type: 2}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
