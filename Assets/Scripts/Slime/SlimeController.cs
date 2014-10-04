@@ -3,10 +3,9 @@ using System.Collections;
 
 [System.Serializable]
 [RequireComponent(typeof(CircleCollider2D))]
-public class SlimeMoveBase : MonoBehaviour
+public class SlimeController : MonoBehaviour
 {
-#region Normal vars
-    public MollControler ParentScrip;
+    public SlimeManager ParentScrip;
     public bool SlimeDead = false;
 
     [SerializeField]
@@ -19,36 +18,26 @@ public class SlimeMoveBase : MonoBehaviour
     private float privateWaitTime = 0f; //used so animations dont cross paths
     private float molePopupTime; // when zero the slime dies
     private Animator animator;
-#endregion
 
-#region Getter/Setter
-    public bool GotSlime
-    {
-        get
-        {
-            return _GotSlime;
-        }
-    }
-    public SlimeType slimeType
-    {
-        get
-        {
-            return slimeType_;
-        }
-    }
-	public float waitTime
-	{
-		get{
-			return privateWaitTime;
-		}
-	}
-
-#endregion
-
-#region Powerup var's
+    public EffectManager effectManager;
     public bool Frozen;
     public bool time;
-#endregion
+
+    public bool GotSlime {
+        get { 
+            return _GotSlime; 
+        }
+    }
+    public SlimeType slimeType {
+        get { 
+            return slimeType_; 
+        }
+    }
+	public float waitTime{
+		get{ 
+            return privateWaitTime; 
+        }
+	}
 
     public void SetSlimeType(SlimeType type)
     {
@@ -78,23 +67,13 @@ public class SlimeMoveBase : MonoBehaviour
         {
             if (hp > 1)
             {
-                Handheld.Vibrate();
                 animator.SetTrigger("GotHit");
-				Debug.Log("GotHit");
                 hp --;
             }
             else
             {
-                Handheld.Vibrate();
                 killAction();
-				Debug.Log("FinalHit");
-                animator.SetTrigger("FinalHit");
-                SlimeDead = true;
                 //addScore;
-            }
-            if (particleSystem != null)
-            {
-                particleSystem.Emit(20);
             }
         }
     }
@@ -105,7 +84,6 @@ public class SlimeMoveBase : MonoBehaviour
         {
             if (privateWaitTime < 0)
             {
-                SlimeDead = true;
                 _GotSlime = false;
             }
             else

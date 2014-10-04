@@ -40,54 +40,62 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slimes:
-  - hP: 1
+  - hP: 0
     slimeType: 0
     frameCount: 24
     molePopupTime: 2
     runtimeAnimatorController: {fileID: 22100000, guid: 32bec6ede393377418ae3649fcb3adbc,
       type: 2}
-  - hP: 1
+    particleEffect: {fileID: 100002, guid: 577dfa381c2ab4d8898e369075e0a76a, type: 2}
+  - hP: 0
     slimeType: 1
     frameCount: 24
     molePopupTime: 2
     runtimeAnimatorController: {fileID: 22100000, guid: 51db5e451a3c1344881c9f8dfde9730d,
       type: 2}
+    particleEffect: {fileID: 100000, guid: 85809b1db187d47198d2ba00797d257b, type: 2}
   - hP: 1
     slimeType: 2
     frameCount: 24
     molePopupTime: 2
     runtimeAnimatorController: {fileID: 22100000, guid: ecd865e34599743489906f65ba102f84,
       type: 2}
+    particleEffect: {fileID: 100000, guid: dafc760b782364e01b844cdfbda5bec4, type: 2}
   - hP: 2
     slimeType: 3
     frameCount: 24
     molePopupTime: 2
     runtimeAnimatorController: {fileID: 22100000, guid: 647e1ff1f29a9ef41bd74ad9473d5a17,
       type: 2}
-  - hP: 1
+    particleEffect: {fileID: 100000, guid: be58a23481ac54938a8f3bea5b236493, type: 2}
+  - hP: 0
     slimeType: 4
     frameCount: 24
     molePopupTime: 2
     runtimeAnimatorController: {fileID: 22100000, guid: 83c077327b6e8f24d9228a67b08dcd72,
       type: 2}
+    particleEffect: {fileID: 0}
   - hP: 1
     slimeType: 5
     frameCount: 24
     molePopupTime: 2
     runtimeAnimatorController: {fileID: 22100000, guid: 8e9cdcf4ba4d4304680c2f49e334d6fb,
       type: 2}
+    particleEffect: {fileID: 100000, guid: fa12ef2446e694fdb8a33cc337c15f6e, type: 2}
   - hP: 1
     slimeType: 6
     frameCount: 24
     molePopupTime: 2
     runtimeAnimatorController: {fileID: 22100000, guid: 3d7f3ec2cbae4294dab76ce467a6a945,
       type: 2}
+    particleEffect: {fileID: 100002, guid: 2a8e210a4c63846c898462a078821f09, type: 2}
   - hP: 1
     slimeType: 7
     frameCount: 24
     molePopupTime: 2
     runtimeAnimatorController: {fileID: 22100000, guid: 15adbb2d11b52ce4598da56eef8e406c,
       type: 2}
+    particleEffect: {fileID: 100000, guid: 20a989b5576c64c3bba8c5e314ca747e, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

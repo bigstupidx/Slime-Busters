@@ -104,9 +104,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ParentScrip: {fileID: 0}
   SlimeDead: 0
-  slimeList: {fileID: 0}
-  _GotSlime: 0
-  layer: 2
+  orderLayer: 0
+  effectManager:
+    effectList: {fileID: 0}
   Frozen: 0
   time: 0
 --- !u!58 &56244044
@@ -184,7 +184,7 @@ GameObject:
   - 4: {fileID: 550949298}
   - 114: {fileID: 550949299}
   m_Layer: 0
-  m_Name: MollControle
+  m_Name: SlimeManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -220,10 +220,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90fe7b590e8d7114298bae5a9558ce9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Slimes: []
+  initSprite: {fileID: 21300000, guid: 89e38f7b86702724a836b54c9e219d75, type: 3}
+  _slimesList: {fileID: 11400000, guid: 3d1c67a46ae718b4f9113bf0bd7e4222, type: 2}
   maxActivesSlimes: 3
   currentActive: 0
-  _slimesList: {fileID: 11400000, guid: 3d1c67a46ae718b4f9113bf0bd7e4222, type: 2}
 --- !u!1 &618331617
 GameObject:
   m_ObjectHideFlags: 0
@@ -254,9 +254,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ParentScrip: {fileID: 0}
   SlimeDead: 0
-  slimeList: {fileID: 0}
-  _GotSlime: 0
-  layer: 0
+  orderLayer: 4
+  effectManager:
+    effectList: {fileID: 0}
   Frozen: 0
   time: 0
 --- !u!58 &618331619
@@ -312,9 +312,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ParentScrip: {fileID: 0}
   SlimeDead: 0
-  slimeList: {fileID: 0}
-  _GotSlime: 0
-  layer: 0
+  orderLayer: 4
+  effectManager:
+    effectList: {fileID: 0}
   Frozen: 0
   time: 0
 --- !u!58 &834753790
@@ -718,9 +718,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ParentScrip: {fileID: 0}
   SlimeDead: 0
-  slimeList: {fileID: 0}
-  _GotSlime: 0
-  layer: 1
+  orderLayer: 2
+  effectManager:
+    effectList: {fileID: 0}
   Frozen: 0
   time: 0
 --- !u!58 &1467211825
@@ -934,9 +934,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ParentScrip: {fileID: 0}
   SlimeDead: 0
-  slimeList: {fileID: 0}
-  _GotSlime: 0
-  layer: 1
+  orderLayer: 2
+  effectManager:
+    effectList: {fileID: 0}
   Frozen: 0
   time: 0
 --- !u!58 &1721765519
@@ -992,9 +992,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ParentScrip: {fileID: 0}
   SlimeDead: 0
-  slimeList: {fileID: 0}
-  _GotSlime: 0
-  layer: 2
+  orderLayer: 0
+  effectManager:
+    effectList: {fileID: 0}
   Frozen: 0
   time: 0
 --- !u!58 &1830388838
@@ -1050,9 +1050,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ParentScrip: {fileID: 0}
   SlimeDead: 0
-  slimeList: {fileID: 0}
-  _GotSlime: 0
-  layer: 1
+  orderLayer: 2
+  effectManager:
+    effectList: {fileID: 0}
   Frozen: 0
   time: 0
 --- !u!58 &1986556931

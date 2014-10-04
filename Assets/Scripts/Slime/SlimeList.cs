@@ -18,7 +18,7 @@ public class SlimeList : MonoBehaviour
         {
             Debug.LogError("No Slimes In List!");
         }
-        Debug.LogError("Slime Not Found! Returnd first in list.");
+        Debug.LogError("Slime Not Found!");
         return slimes[0];
     }
 }

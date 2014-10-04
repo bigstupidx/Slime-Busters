@@ -7,7 +7,7 @@ public enum ControlerState{
 	Boss
 }
 
-public class MollControler : MonoBehaviour {
+public class SlimeManager : MonoBehaviour {
 
     public Sprite initSprite;
     public SlimeList _slimesList;
@@ -18,7 +18,7 @@ public class MollControler : MonoBehaviour {
 
     private int startinlvl;
 	private ControlerState controlerState = ControlerState.RandomSpawning;
-    private SlimeMoveBase[] Slimes;
+    private SlimeController[] Slimes;
 
 #region PowerUps
     bool[] PowerupEnabled = new bool[4];//[0]Time,[1]Ice,[2]Soldier,[3]Nuke
@@ -27,11 +27,11 @@ public class MollControler : MonoBehaviour {
 
     void Start()
     {
-        Slimes = GetComponentsInChildren<SlimeMoveBase>();
+        Slimes = GetComponentsInChildren<SlimeController>();
         for (int i = 0; i < 7; i++)
         {
             Slimes[i].ParentScrip = this;
-            Slimes[i].name = " "+i;
+            Slimes[i].name = "["+i+"]SlimeController";
         }
         startinlvl=Application.loadedLevel;
         StartCoroutine("SpawnerLoop");
