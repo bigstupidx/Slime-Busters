@@ -17,6 +17,7 @@ public class SlimeTest : MonoBehaviour {
 	//activated by hitRayFirere
 	public void hit(){
 		if (SlimeAlive) {
+            EventHandeler.CallOnHitSlime();
 			animator.SetTrigger ("FinalHit");
 			SlimeAlive = false;
 			StartCoroutine (NextSlime ());

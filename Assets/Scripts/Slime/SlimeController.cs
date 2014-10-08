@@ -6,8 +6,7 @@ using System.Collections;
 public class SlimeController : MonoBehaviour
 {
     public SlimeManager ParentScrip;
-    public bool SlimeDead = false;
-
+    
     [SerializeField]
     private int orderLayer;
     private bool _GotSlime = false;
@@ -18,11 +17,17 @@ public class SlimeController : MonoBehaviour
     private float privateWaitTime = 0f; //used so animations dont cross paths
     private float molePopupTime; // when zero the slime dies
     private Animator animator;
+    private bool SlimeDead_ = false;
 
     public EffectManager effectManager;
     public bool Frozen;
     public bool time;
 
+    public bool SlimeDead{
+        get{
+            return SlimeDead_;
+        }
+    }
     public bool GotSlime {
         get { 
             return _GotSlime; 
@@ -47,7 +52,7 @@ public class SlimeController : MonoBehaviour
         molePopupTime = slimeInfo.molePopupTime;
 
         _GotSlime = true;
-        SlimeDead = false;
+        SlimeDead_ = false;
 
         privateWaitTime = (1f / GameSettings.animationFPS * slimeInfo.frameCount);
         GameObject newSlime = new GameObject("slime");
@@ -65,6 +70,7 @@ public class SlimeController : MonoBehaviour
     {
         if (_GotSlime && animator != null)
         {
+            EventHandeler.CallOnHitSlime();
             if (hp > 1)
             {
                 animator.SetTrigger("GotHit");
@@ -111,12 +117,12 @@ public class SlimeController : MonoBehaviour
         {
             animator.SetTrigger("FinalHit");
             Destroy(animator.gameObject, privateWaitTime);
-            if (slimeInfo.particleEffect != null)
+            if (!SlimeDead && (slimeInfo.particleEffect != null))
             {
                 GameObject.Instantiate(slimeInfo.particleEffect, transform.position, Quaternion.identity);
             }
         }
-        SlimeDead = true;
+        SlimeDead_ = true;
         hp = 0;
         ParentScrip.currentActive--;
     }
@@ -128,7 +134,7 @@ public class SlimeController : MonoBehaviour
             animator.SetTrigger("DeSpawn");
             Destroy(animator.gameObject, privateWaitTime);
 		}
-		SlimeDead = true;
+		SlimeDead_ = true;
 		hp = 0;
 		ParentScrip.currentActive--;
 	}

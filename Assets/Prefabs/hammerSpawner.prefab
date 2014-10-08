@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 400000}
   - 114: {fileID: 11400000}
   m_Layer: 0
-  m_Name: HammerList
+  m_Name: hammerSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23,10 +23,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .27514872, y: .095689483, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -35,34 +36,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f77395ecf38b2d4498573c295797fd89, type: 3}
+  m_Script: {fileID: 11500000, guid: 2032c205b7bb663429964f3609e86e4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hammers:
-  - name: Normal
-    cost: 0
-    controler: {fileID: 9100000, guid: fcaf8a12bd8b526488b190bc5c5f6931, type: 2}
-  - name: Fire
-    cost: 100
-    controler: {fileID: 22100000, guid: c1f8fe458f82d9d4a912119e58d47ac7, type: 2}
-  - name: Ice
-    cost: 100
-    controler: {fileID: 22100000, guid: dfba3dc8ed93b924dbc8a272dedd871e, type: 2}
-  - name: Clown
-    cost: 500
-    controler: {fileID: 22100000, guid: 5feb623cf6dd8e945a7cd51da43165e3, type: 2}
-  - name: Pixel
-    cost: 200
-    controler: {fileID: 22100000, guid: 476033460219d294d8f8f28c8773965f, type: 2}
-  - name: Twitter
-    cost: 0
-    controler: {fileID: 22100000, guid: 2ad2a5ed93f3d294387ebba447f30420, type: 2}
-  - name: Facebook
-    cost: 0
-    controler: {fileID: 22100000, guid: e6edd13004df80d4b8063bf50fe6cc73, type: 2}
-  - name: Comic
-    cost: 300
-    controler: {fileID: 22100000, guid: 6a9cd27e1b66df94f8c05775f4ace275, type: 2}
+  hammers: {fileID: 11400000, guid: 8bb6fe8dd2ed2a44abf381d3d4b4ebc3, type: 2}
+  hammerScale: 1
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

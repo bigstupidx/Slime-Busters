@@ -137,14 +137,16 @@ public class SlimeManager : MonoBehaviour {
                     PowerUpTimeLeft[j] = 0f;
                 }
             }
-            for (int i = 0; i < 7; i++)
+            /*for (int i = 0; i < 7; i++)
             {
                 if (Slimes[i].SlimeDead)
+                {
                     ActiveApowerUp(Slimes[i].slimeType);
-                Slimes[i].SlimeDead = false;
-                Slimes[i].Frozen = PowerupEnabled[1];
-                Slimes[i].time = PowerupEnabled[0];
-            }
+                    Slimes[i].SlimeDead = false;
+                    Slimes[i].Frozen = PowerupEnabled[1];
+                    Slimes[i].time = PowerupEnabled[0];
+                }
+            }*/
             yield return new WaitForSeconds(0.05f);
         }
     }
