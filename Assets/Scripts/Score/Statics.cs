@@ -9,7 +9,7 @@ namespace Score
         public static int HighScore = 0;
 
         public static byte baseMulti; //dived by 10
-        public static diffLevels diff = diffLevels.Easy;
+        public static diffLevels diff;
 
         public static int chain = 0; // to be implemented
         public static bool Bonus;

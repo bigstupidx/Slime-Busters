@@ -13,11 +13,15 @@ public class Shop : MonoBehaviour {
     [SerializeField]
     private GameObject hammerButtonContainer;
     //private UIPanel hammerPannel;
+    [SerializeField]
+    private HammerSpawner hamerSpawner;
 
+	[SerializeField]
+	private float hammerScale = 0.2777f;
     private int currentHammerId = 0;
     private int currentHammerPreviewId = 0;
     private int p_money = 3294;
-    private HammerControler hammerColtrol;
+    private HammerCreator hammerCreator;
 
     void Start () {
         UpdateCostMoneyLabels();
@@ -26,9 +30,8 @@ public class Shop : MonoBehaviour {
         {
             AddHammerButton(270 - (95 * i), hammers.hammers[i].name,i);
         }
-        hammerColtrol = new HammerControler(this.transform, hammers.hammers[0].controler);
+        hammerCreator = hamerSpawner.hammerCreator;
 		//set active hammer
-        Debug.Log("Start");
         HammerToggleClicked(GameDataController.getSaveInt(SaveInt.currentHammer));
 		Debug.Log (GameDataController.getSaveInt(SaveInt.currentHammer));
 
@@ -45,7 +48,7 @@ public class Shop : MonoBehaviour {
         UpdateCostMoneyLabels();
         currentHammerId = newCurrentHammerId;
         Debug.Log("toggle " + currentHammerId + " toggled\n name:" + hammers.hammers[currentHammerId].name);
-        hammerColtrol.SetControler(hammers.hammers[currentHammerId].controler);
+        hammerCreator.SetHammer(hammers.hammers[currentHammerId]);
         GameDataController.setSaveInt(SaveInt.currentHammer, newCurrentHammerId);
     }
 
@@ -86,11 +89,6 @@ public class Shop : MonoBehaviour {
     public void HammerButtonEvent(int n)
     {
         Debug.Log("HammerButtonEvent: "+n);
-    }
-
-    public void Update()
-    {
-        hammerColtrol.Tick();
     }
 
     public void Back()
