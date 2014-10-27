@@ -95,7 +95,7 @@ MonoBehaviour:
     molePopupTime: 2
     runtimeAnimatorController: {fileID: 22100000, guid: 15adbb2d11b52ce4598da56eef8e406c,
       type: 2}
-    particleEffect: {fileID: 100000, guid: 20a989b5576c64c3bba8c5e314ca747e, type: 2}
+    particleEffect: {fileID: 100002, guid: f6715e90a7730467680ccbf9562b4087, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

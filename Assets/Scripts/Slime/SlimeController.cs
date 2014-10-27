@@ -119,12 +119,26 @@ public class SlimeController : MonoBehaviour
             Destroy(animator.gameObject, privateWaitTime);
             if (!SlimeDead && (slimeInfo.particleEffect != null))
             {
-                GameObject.Instantiate(slimeInfo.particleEffect, transform.position, Quaternion.identity);
+                if (slimeInfo.slimeType == SlimeType.Bomb)
+                {
+                    StartCoroutine(InstantiateDelay(slimeInfo.particleEffect, 0.5f));
+                }
+                else
+                {
+                    GameObject.Instantiate(slimeInfo.particleEffect, transform.position, Quaternion.identity);
+                }
             }
         }
         SlimeDead_ = true;
         hp = 0;
         ParentScrip.currentActive--;
+    }
+
+    IEnumerator InstantiateDelay(GameObject spawnGameObject, float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        GameObject.Instantiate(spawnGameObject, transform.position, Quaternion.identity);
+        yield return null;
     }
 
 	public void DeSpawnAction()

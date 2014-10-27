@@ -536,8 +536,8 @@ MonoBehaviour:
   mOverflow: 0
   mMaterial: {fileID: 0}
   mApplyGradient: 1
-  mGradientTop: {r: 1, g: .425557822, b: .29411763, a: 1}
-  mGradientBottom: {r: .867647052, g: .0510380603, b: .0510380603, a: 1}
+  mGradientTop: {r: .529411793, g: 1, b: .572549045, a: 1}
+  mGradientBottom: {r: .529411793, g: 1, b: .572549045, a: 1}
   mSpacingX: 0
   mSpacingY: 0
   mShrinkToFit: 0
@@ -743,8 +743,8 @@ MonoBehaviour:
   mOverflow: 0
   mMaterial: {fileID: 0}
   mApplyGradient: 1
-  mGradientTop: {r: 1, g: .425557822, b: .29411763, a: 1}
-  mGradientBottom: {r: .867647052, g: .0510380603, b: .0510380603, a: 1}
+  mGradientTop: {r: .529411793, g: 1, b: .572549045, a: 1}
+  mGradientBottom: {r: .529411793, g: 1, b: .572549045, a: 1}
   mSpacingX: 0
   mSpacingY: 0
   mShrinkToFit: 0
@@ -972,8 +972,8 @@ MonoBehaviour:
   mOverflow: 0
   mMaterial: {fileID: 0}
   mApplyGradient: 1
-  mGradientTop: {r: 1, g: .425557822, b: .29411763, a: 1}
-  mGradientBottom: {r: .867647052, g: .0510380603, b: .0510380603, a: 1}
+  mGradientTop: {r: .529411793, g: 1, b: .572549045, a: 1}
+  mGradientBottom: {r: .529411793, g: 1, b: .572549045, a: 1}
   mSpacingX: 0
   mSpacingY: 0
   mShrinkToFit: 0

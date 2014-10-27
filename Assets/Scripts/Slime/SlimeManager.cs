@@ -18,7 +18,7 @@ public class SlimeManager : MonoBehaviour {
 
     private int startinlvl;
 	private ControlerState controlerState = ControlerState.RandomSpawning;
-    private SlimeController[] Slimes;
+    private SlimeController[] SlimeControlers;
 
 #region PowerUps
     bool[] PowerupEnabled = new bool[4];//[0]Time,[1]Ice,[2]Soldier,[3]Nuke
@@ -27,11 +27,11 @@ public class SlimeManager : MonoBehaviour {
 
     void Start()
     {
-        Slimes = GetComponentsInChildren<SlimeController>();
+        SlimeControlers = GetComponentsInChildren<SlimeController>();
         for (int i = 0; i < 7; i++)
         {
-            Slimes[i].ParentScrip = this;
-            Slimes[i].name = "["+i+"]SlimeController";
+            SlimeControlers[i].ParentScrip = this;
+            SlimeControlers[i].name = "["+i+"]SlimeController";
         }
         startinlvl=Application.loadedLevel;
         StartCoroutine("SpawnerLoop");
@@ -68,13 +68,13 @@ public class SlimeManager : MonoBehaviour {
 	                float spawnValue = Random.Range(0, 1f);
 	                // Debug.Log(i+" : "+val);
 	                
-	                if (!Slimes[i].GotSlime && currentActive < maxActivesSlimes && spawnValue < 0.8f)
+	                if (!SlimeControlers[i].GotSlime && currentActive < maxActivesSlimes && spawnValue < 0.8f)
 	                {
 	                    //set type of new slime
 	                    if (Random.value < 0.4f)
-	                        Slimes[i].SetSlimeType((SlimeType)(Mathf.FloorToInt(Random.Range(0, 7))));
+	                        SlimeControlers[i].SetSlimeType((SlimeType)(Mathf.FloorToInt(Random.Range(0, 7))));
 	                    else
-	                        Slimes[i].SetSlimeType(SlimeType.Normal);
+	                        SlimeControlers[i].SetSlimeType(SlimeType.Normal);
 	                    currentActive++;
 	                    yield return new WaitForSeconds(0.2f);
 	                }
@@ -90,19 +90,19 @@ public class SlimeManager : MonoBehaviour {
 				
 				if (spawnGroup == 0)
 				{
-					Slimes[0].SetSlimeType(SlimeType.Normal);
-					Slimes[1].SetSlimeType(SlimeType.Normal);
-					Slimes[2].SetSlimeType(SlimeType.Normal);
-					Slimes[5].SetSlimeType(SlimeType.Normal);
+					SlimeControlers[0].SetSlimeType(SlimeType.Normal);
+					SlimeControlers[1].SetSlimeType(SlimeType.Normal);
+					SlimeControlers[2].SetSlimeType(SlimeType.Normal);
+					SlimeControlers[5].SetSlimeType(SlimeType.Normal);
 					currentActive+=4;
 					yield return new WaitForSeconds(2f);
 				}
 				else if(spawnGroup == 1)
 				{
-					Slimes[2].SetSlimeType(SlimeType.Helmet);
-					Slimes[3].SetSlimeType(SlimeType.Helmet);
-					Slimes[4].SetSlimeType(SlimeType.Helmet);
-					Slimes[6].SetSlimeType(SlimeType.Helmet);
+					SlimeControlers[2].SetSlimeType(SlimeType.Helmet);
+					SlimeControlers[3].SetSlimeType(SlimeType.Helmet);
+					SlimeControlers[4].SetSlimeType(SlimeType.Helmet);
+					SlimeControlers[6].SetSlimeType(SlimeType.Helmet);
 					yield return new WaitForSeconds(3f);
 					currentActive+=4;
 				}
@@ -111,7 +111,7 @@ public class SlimeManager : MonoBehaviour {
 				float waitTime = removeAllActiveSlimes();
 				yield return new WaitForSeconds(waitTime);
 
-				Slimes[2].SetSlimeType(SlimeType.Boss);
+				SlimeControlers[2].SetSlimeType(SlimeType.Boss);
 				currentActive+=4;
 			}
 			yield return new WaitForSeconds(0.2f);
@@ -140,12 +140,10 @@ public class SlimeManager : MonoBehaviour {
             /*for (int i = 0; i < 7; i++)
             {
                 if (Slimes[i].SlimeDead)
-                {
                     ActiveApowerUp(Slimes[i].slimeType);
-                    Slimes[i].SlimeDead = false;
-                    Slimes[i].Frozen = PowerupEnabled[1];
-                    Slimes[i].time = PowerupEnabled[0];
-                }
+                Slimes[i].SlimeDead = false;
+                Slimes[i].Frozen = PowerupEnabled[1];
+                Slimes[i].time = PowerupEnabled[0];
             }*/
             yield return new WaitForSeconds(0.05f);
         }
@@ -155,9 +153,9 @@ public class SlimeManager : MonoBehaviour {
 	{
 		float returnNeededTime = 0;
 		for (int i = 0; i < 7; i++) {
-			Slimes[i].DeSpawnAction();
-			if(Slimes[i].waitTime > returnNeededTime){
-				returnNeededTime = Slimes[i].waitTime;
+			SlimeControlers[i].DeSpawnAction();
+			if(SlimeControlers[i].waitTime > returnNeededTime){
+				returnNeededTime = SlimeControlers[i].waitTime;
 			}
 		}
 		return returnNeededTime;
