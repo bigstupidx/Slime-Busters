@@ -90,18 +90,18 @@ public class SlimeManager : MonoBehaviour {
 				
 				if (spawnGroup == 0)
 				{
-					SlimeControlers[0].SetSlimeType(SlimeType.Normal);
-					SlimeControlers[1].SetSlimeType(SlimeType.Normal);
-					SlimeControlers[2].SetSlimeType(SlimeType.Normal);
+					SlimeControlers[0].SetSlimeType(SlimeType.Bomb);
+					SlimeControlers[1].SetSlimeType(SlimeType.Pinata);
+					SlimeControlers[2].SetSlimeType(SlimeType.Boss);
 					SlimeControlers[5].SetSlimeType(SlimeType.Normal);
 					currentActive+=4;
 					yield return new WaitForSeconds(2f);
 				}
 				else if(spawnGroup == 1)
 				{
-					SlimeControlers[2].SetSlimeType(SlimeType.Helmet);
+                    SlimeControlers[2].SetSlimeType(SlimeType.Bomb);
 					SlimeControlers[3].SetSlimeType(SlimeType.Helmet);
-					SlimeControlers[4].SetSlimeType(SlimeType.Helmet);
+                    SlimeControlers[4].SetSlimeType(SlimeType.Bomb);
 					SlimeControlers[6].SetSlimeType(SlimeType.Helmet);
 					yield return new WaitForSeconds(3f);
 					currentActive+=4;
