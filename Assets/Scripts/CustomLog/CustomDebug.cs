@@ -57,7 +57,7 @@ public class CustomDebug : MonoBehaviour {
         else
             output = "";
 
-        if (LogLevel<level || user != currentUser && currentUser != Users.System)
+        if ((int)LogLevel < (int)level || user != currentUser && user != Users.System)
             return;
 
         switch (level)
