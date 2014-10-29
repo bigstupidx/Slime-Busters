@@ -14,7 +14,7 @@ namespace Health
         {
             if (dmg < 0)
             {
-                Debug.LogError("don't try negative damage. Use addHealth instead");
+                CustomDebug.Log("[HealtStatic] don't try negative damage. Use addHealth instead", CustomDebug.Users.System,CustomDebug.Level.Warn);
                 return;
             }
 
@@ -28,7 +28,7 @@ namespace Health
         {
             if (heal < 0)
             {
-                Debug.LogWarning("don't use negative healing. Use takeDamage instead");
+                CustomDebug.Log("[HealtStatic] don't use negative healing. Use takeDamage instead", CustomDebug.Users.System, CustomDebug.Level.Warn);
                 return;
             }
 
