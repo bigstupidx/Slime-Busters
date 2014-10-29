@@ -35,11 +35,11 @@ public class CustomDebug : MonoBehaviour {
     public static Users currentUser = Users.System;
 
     public enum Level{
-        Trace,
-        Info,
-        Debug,
-        Warn,
-        Error
+        Trace = 0,
+        Info = 1,
+        Debug = 2,
+        Warn = 3,
+        Error = 4
     };
 
     public enum Users{
