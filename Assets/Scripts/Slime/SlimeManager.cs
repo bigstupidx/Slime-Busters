@@ -51,7 +51,7 @@ public class SlimeManager : MonoBehaviour {
 			}else{
 				controlerState = ControlerState.Boss;
 			}
-			Debug.Log("\n[MollControler] switch state: "+controlerState);
+			CustomDebug.Log("[MollControler] switch state: "+controlerState);
             yield return new WaitForSeconds(15f);
 		}
 		yield return null;

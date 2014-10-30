@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
-namespace Score
+namespace gameData
 {
-    public class Statics
+    public class ScoreStat
     {
         // should be clear
         public static int Score = 0;
@@ -25,6 +25,7 @@ namespace Score
 
         public static void SetDifficulty()
         {
+            CustomDebug.Log("[ScoreStatics] Setting difficulty to : " + diff, CustomDebug.Users.System, CustomDebug.Level.Trace);
             switch (diff)
             {
                 case diffLevels.Easy:
@@ -57,6 +58,20 @@ namespace Score
         {
             if(!Bonus)
                  bonusActivated = true;
+        }
+
+        public static void Save()
+        {
+            CustomDebug.Log("[ScoreStatics] Saved ScoreInfo", CustomDebug.Users.System, CustomDebug.Level.Info);
+            PlayerPrefs.SetInt("HighScore", HighScore);
+
+            PlayerPrefs.Save();
+        }
+
+        public static void Load()
+        {
+            CustomDebug.Log("[ScoreStatics] Loaded ScoreInfo", CustomDebug.Users.System, CustomDebug.Level.Info);
+            HighScore = PlayerPrefs.GetInt("HighScore");
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEditor;
-using Score;
+using gameData;
 
 [CustomEditor(typeof(BonusManager))]
 public class scoreEditor : Editor {
@@ -15,22 +15,22 @@ public class scoreEditor : Editor {
         ProgressBar(manager.bonusTimer / manager.bonusLength, "BonusTime: " + TimeCover.tostring(manager.bonusTimer));
         
         if (GUILayout.Button("StartBonus"))
-            Statics.XpBonus();
+            ScoreStat.XpBonus();
 
         EditorGUILayout.Space();
         if (GUILayout.Button("ResetScore"))
-        {Statics.Score = 0; Statics.HighScore = 0;}
-        EditorGUILayout.LabelField("Score: " + Statics.Score.ToString());
-        EditorGUILayout.LabelField("Highscore: " + Statics.HighScore.ToString());
+        {ScoreStat.Score = 0; ScoreStat.HighScore = 0;}
+        EditorGUILayout.LabelField("Score: " + ScoreStat.Score.ToString());
+        EditorGUILayout.LabelField("Highscore: " + ScoreStat.HighScore.ToString());
         if (GUILayout.Button("AddScore"))
-            Statics.AddScore(scoreToAdd);
+            ScoreStat.AddScore(scoreToAdd);
         scoreToAdd = EditorGUILayout.IntField("ScoreTo Add", scoreToAdd);
             
         EditorGUILayout.Space();
-        EditorGUILayout.LabelField("ScoreMulti: " + Statics.baseMulti.ToString());
-        Statics.diff = (Statics.diffLevels)EditorGUILayout.EnumPopup("difficulty level", Statics.diff);
+        EditorGUILayout.LabelField("ScoreMulti: " + ScoreStat.baseMulti.ToString());
+        ScoreStat.diff = (ScoreStat.diffLevels)EditorGUILayout.EnumPopup("difficulty level", ScoreStat.diff);
         if(GUILayout.Button("SetDifficulty"))
-            Statics.SetDifficulty();
+            ScoreStat.SetDifficulty();
 
     }
 

@@ -9,12 +9,12 @@ public enum SaveInt{
 public class GameDataController
 {
 	public static int getSaveInt(SaveInt saveInt){
-        Debug.Log("[load]" + saveInt +" "+PlayerPrefs.GetInt (saveInt.ToString()));
+        CustomDebug.Log("[load]" + saveInt +" "+PlayerPrefs.GetInt (saveInt.ToString()));
 		return PlayerPrefs.GetInt (saveInt.ToString());
 	}
 
 	public static void setSaveInt(SaveInt saveInt, int value){
-        Debug.Log("[save]" + saveInt + " " + value);
+        CustomDebug.Log("[save]" + saveInt + " " + value );
 		PlayerPrefs.SetInt (saveInt.ToString(),value);
 
         PlayerPrefs.Save();

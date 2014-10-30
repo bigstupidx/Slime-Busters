@@ -1,12 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-namespace Health
+namespace gameData
 {
-    public class Statics
+    public class HealthStat
     {
-        public static int health = 0;
-        public static int maxHealth = 3;
+        private static int health = 0;
+        private static int maxHealth = 3;
 
         public static bool dead = false;
 

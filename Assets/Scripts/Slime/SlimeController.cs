@@ -119,7 +119,7 @@ public class SlimeController : MonoBehaviour
             Destroy(animator.gameObject, privateWaitTime);
             if (!SlimeDead && (slimeInfo.particleEffect != null))
             {
-                Debug.Log("killAction type:"+slimeInfo.slimeType);
+                CustomDebug.Log("[Slime]killAction type:"+slimeInfo.slimeType, CustomDebug.Users.System,CustomDebug.Level.Trace);
                 if (slimeInfo.slimeType == SlimeType.Bomb)
                 {
                     StartCoroutine(InstantiateDelay(slimeInfo.particleEffect, 0.25f));

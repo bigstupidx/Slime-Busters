@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-namespace Score
+namespace gameData
 {
     public class BonusManager : MonoBehaviour
     {
@@ -9,23 +9,24 @@ namespace Score
 
         void Start()
         {
-            Statics.SetDifficulty();
+            ScoreStat.SetDifficulty();
+            ScoreStat.Load();
         }
 
         void Update()
         {
-            if (Statics.bonusActivated)
+            if (ScoreStat.bonusActivated)
             {
-                Statics.bonusActivated = false;
-                Statics.Bonus = true;
+                ScoreStat.bonusActivated = false;
+                ScoreStat.Bonus = true;
                 bonusTimer = bonusLength;
             }
 
-            if (Statics.Bonus)
+            if (ScoreStat.Bonus)
             {
                 if (bonusTimer <= 0)
                 {
-                    Statics.Bonus = false;
+                    ScoreStat.Bonus = false;
                     return;
                 }
                 bonusTimer -= Time.deltaTime;
