@@ -16,7 +16,7 @@ public class InGameGui : MonoBehaviour {
 	
 	// Called by button in scene
 	public void PauseButtonClicked () {
-		Debug.Log("[InGameGui]Pause Button Pressed");
+		CustomDebug.Log("[InGameGui]Pause Button Pressed", CustomDebug.Users.System,CustomDebug.Level.Trace);
 		MenuTween.Toggle();
         if(Time.timeScale > 0){
             Time.timeScale = 0;

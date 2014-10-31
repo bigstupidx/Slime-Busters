@@ -11,6 +11,7 @@ namespace gameData
         {
             ScoreStat.SetDifficulty();
             ScoreStat.Load();
+            ScoreStat.Score = 0;
         }
 
         void Update()
