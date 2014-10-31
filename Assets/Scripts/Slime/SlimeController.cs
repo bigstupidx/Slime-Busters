@@ -113,30 +113,34 @@ public class SlimeController : MonoBehaviour
 
     private void killAction()
     {
-        if (animator != null)
+        if (!SlimeDead_)
         {
-            animator.SetTrigger("FinalHit");
-            Destroy(animator.gameObject, privateWaitTime);
-            if (!SlimeDead && (slimeInfo.particleEffect != null))
+            if (animator != null)
             {
-                CustomDebug.Log("[Slime]killAction type:"+slimeInfo.slimeType, CustomDebug.Users.System,CustomDebug.Level.Trace);
-                if (slimeInfo.slimeType == SlimeType.Bomb)
+                animator.SetTrigger("FinalHit");
+                Destroy(animator.gameObject, privateWaitTime);
+                if (!SlimeDead && (slimeInfo.particleEffect != null))
                 {
-                    StartCoroutine(InstantiateDelay(slimeInfo.particleEffect, 0.25f));
-                }
-                else if (slimeInfo.slimeType == SlimeType.Pinata)
-                {
-                    StartCoroutine(InstantiateDelay(slimeInfo.particleEffect, 0.2f));
-                }
-                else
-                {
-                    GameObject.Instantiate(slimeInfo.particleEffect, transform.position, Quaternion.identity);
+                    CustomDebug.Log("[Slime]killAction type:"+slimeInfo.slimeType, CustomDebug.Users.System,CustomDebug.Level.Trace);
+                    if (slimeInfo.slimeType == SlimeType.Bomb)
+                    {
+                        StartCoroutine(InstantiateDelay(slimeInfo.particleEffect, 0.25f));
+                    }
+                    else if (slimeInfo.slimeType == SlimeType.Pinata)
+                    {
+                        StartCoroutine(InstantiateDelay(slimeInfo.particleEffect, 0.2f));
+                    }
+                    else
+                    {
+                        GameObject.Instantiate(slimeInfo.particleEffect, transform.position, Quaternion.identity);
+                    }
                 }
             }
+            SlimeDead_ = true;
+            hp = 0;
+            ParentScrip.currentActive--;
+            gameData.ScoreStat.AddScore(5);
         }
-        SlimeDead_ = true;
-        hp = 0;
-        ParentScrip.currentActive--;
     }
 
     IEnumerator InstantiateDelay(GameObject spawnGameObject, float delay)
