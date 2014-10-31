@@ -8,20 +8,65 @@ public class Hearts : MonoBehaviour {
     private Sprite heart;
 
     [SerializeField]
-    private Color DeadHeart;
+    private Color DeadColour= Color.gray;
+    [SerializeField]
+    private Color AliveColour = Color.red;
 
-    private List<SpriteRenderer> hearts = new List<SpriteRenderer>(); 
-	void Start () {
-	    
-	}
+    [SerializeField]
+    Vector2 placementOffset = new Vector2(0.55f,0);
+
+    private List<SpriteRenderer> spRenders = new List<SpriteRenderer>();
+
+    private int cHealth = 0;
+    private int Activehearts;
+	void Start () 
+    {
+            while (HealthStat.health < HealthStat.maxHealth)
+            {
+                HealthStat.health++;
+
+                CreateNewHeart();
+            }
+
+            cHealth = HealthStat.maxHealth;
+    }
 	
 	
-	void Update () {
-	
+	void Update () 
+    {
+        if (HealthStat.health != cHealth)
+        {
+            int health = HealthStat.health;
+            int diff = health - health;
+
+            if (diff<0)
+            {
+                spRenders[Activehearts - 1].color =DeadColour;
+                Activehearts--;
+            }
+            else if (diff > 0)
+            {
+                spRenders[Activehearts - 1].color = AliveColour;
+                Activehearts++;
+            }
+            cHealth = health;
+        }
 	}
 
     void CreateNewHeart()
     {
+        GameObject g = new GameObject();
+        g.transform.parent = transform;
+        g.transform.localScale = new Vector3(1, 1, 1);
+        g.layer = 8;
+        int renders = spRenders.Count;
+        g.transform.localPosition = new Vector3(placementOffset.x * renders, placementOffset.y * renders);
+        g.AddComponent<SpriteRenderer>();
 
+        SpriteRenderer sprRen = g.GetComponent<SpriteRenderer>();
+        sprRen.sprite = heart;
+        sprRen.color = AliveColour;
+        sprRen.sortingOrder = 10;
+        spRenders.Add(sprRen);
     }
 }

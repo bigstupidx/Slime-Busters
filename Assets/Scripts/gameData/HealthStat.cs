@@ -5,8 +5,8 @@ namespace gameData
 {
     public class HealthStat
     {
-        private static int health = 0;
-        private static int maxHealth = 3;
+        public static int health = 0;
+        public static int maxHealth = 3;
 
         public static bool dead = false;
 
