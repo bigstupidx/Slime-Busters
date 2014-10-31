@@ -59,6 +59,7 @@ public class Hearts : MonoBehaviour {
         g.transform.parent = transform;
         g.transform.localScale = new Vector3(1, 1, 1);
         g.layer = 8;
+        g.name = "Heart";
         int renders = spRenders.Count;
         g.transform.localPosition = new Vector3(placementOffset.x * renders, placementOffset.y * renders);
         g.AddComponent<SpriteRenderer>();
