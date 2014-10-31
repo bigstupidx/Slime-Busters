@@ -34,5 +34,10 @@ namespace gameData
                     bonusTimer = 0;
             }
         }
+
+        void OnDestory()
+        {
+            ScoreStat.Save();
+        }
     }
 }
