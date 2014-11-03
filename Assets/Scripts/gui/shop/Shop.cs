@@ -25,6 +25,8 @@ public class Shop : MonoBehaviour {
 
     void Start () {
         UpdateCostMoneyLabels();
+
+        p_money = gameData.CoinsStat.coins;
         //hammerPannel = hammerButtonContainer.GetComponent<UIPanel>();
         for (int i = 0; i < hammers.hammers.Length; i++)
         {
@@ -54,6 +56,8 @@ public class Shop : MonoBehaviour {
 
     public void UpdateCostMoneyLabels()
     {
+        p_money = gameData.CoinsStat.coins;
+
         CostLable.text = "Cost: " + hammers.hammers[currentHammerPreviewId].cost;
         MoneyLable.text = "Money: " + p_money.ToString();
     }
@@ -99,6 +103,9 @@ public class Shop : MonoBehaviour {
     public void Buy()
     {
         Debug.Log("Buy");
+
+        if (p_money >= hammers.hammers[currentHammerPreviewId].cost)
+            gameData.CoinsStat.coins -= hammers.hammers[currentHammerPreviewId].cost;
     }
 
     public void Use()
