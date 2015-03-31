@@ -66,7 +66,7 @@ public class Gui : MonoBehaviour {
 		for (int i = 0; i < guiData.screens [guiData.currentActive].buttons.Length; i++) {
 			currentGuiGameObjects[i].transform.position = new Vector3(guiData.screens [guiData.currentActive].buttons[i].x
 			                                                          ,guiData.screens [guiData.currentActive].buttons[i].y,0);
-			currentGuiGameObjects[i].renderer.sortingOrder = guiData.screens [guiData.currentActive].buttons[i].orderInLayer;
+			currentGuiGameObjects[i].GetComponent<Renderer>().sortingOrder = guiData.screens [guiData.currentActive].buttons[i].orderInLayer;
 		}
 	}
 

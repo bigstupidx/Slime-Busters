@@ -3,6 +3,6 @@ using System.Collections;
 
 public class DeleteAnimationOnReady : MonoBehaviour {
 	void Start () {
-        GameObject.Destroy(gameObject,animation.clip.length);
+        GameObject.Destroy(gameObject,GetComponent<Animation>().clip.length);
 	}
 }

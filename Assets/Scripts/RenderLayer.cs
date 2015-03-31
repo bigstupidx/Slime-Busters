@@ -9,9 +9,9 @@ public class RenderLayer : MonoBehaviour {
     [SerializeField]
     private int sortingOrder;
 	void Start () {
-            renderer.sortingLayerName = layer;
+            GetComponent<Renderer>().sortingLayerName = layer;
 
-            renderer.sortingOrder = sortingOrder;
+            GetComponent<Renderer>().sortingOrder = sortingOrder;
 
         if (Application.isPlaying)
             Destroy(this);
